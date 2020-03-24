@@ -1,0 +1,422 @@
+@font-face {
+  font-family: 'icomoon';
+  src:
+    url('fonts/icomoon.ttf?tk833k') format('truetype'),
+    url('fonts/icomoon.woff?tk833k') format('woff'),
+    url('fonts/icomoon.svg?tk833k#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icm-"], [class*=" icm-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icm-kitchen .path1:before {
+  content: "\e900";
+  color: rgb(219, 31, 38);
+}
+.icm-kitchen .path2:before {
+  content: "\e901";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.icm-kitchen .path3:before {
+  content: "\e902";
+  margin-left: -1em;
+  color: rgb(219, 31, 38);
+}
+.icm-kitchen .path4:before {
+  content: "\e903";
+  margin-left: -1em;
+  color: rgb(219, 31, 38);
+}
+.icm-kitchen .path5:before {
+  content: "\e904";
+  margin-left: -1em;
+  color: rgb(219, 31, 38);
+}
+.icm-kitchen .path6:before {
+  content: "\e905";
+  margin-left: -1em;
+  color: rgb(219, 31, 38);
+}
+.icm-magnifying-glass:before {
+  content: "\e906";
+}
+.icm-next:before {
+  content: "\e907";
+}
+.icm-office-furnituresvg:before {
+  content: "\e908";
+}
+.icm-office-chair-1 .path1:before {
+  content: "\e909";
+  color: rgb(0, 0, 0);
+}
+.icm-office-chair-1 .path2:before {
+  content: "\e90a";
+  margin-left: -1em;
+  color: rgb(229, 30, 38);
+}
+.icm-office-chair-1 .path3:before {
+  content: "\e90b";
+  margin-left: -1em;
+  color: rgb(229, 30, 38);
+}
+.icm-office-chair .path1:before {
+  content: "\e90c";
+  color: rgb(0, 0, 0);
+}
+.icm-office-chair .path2:before {
+  content: "\e90d";
+  margin-left: -1em;
+  color: rgb(219, 31, 38);
+}
+.icm-office-chair .path3:before {
+  content: "\e90e";
+  margin-left: -1em;
+  color: rgb(219, 31, 38);
+}
+.icm-office-chair .path4:before {
+  content: "\e90f";
+  margin-left: -1em;
+  color: rgb(219, 31, 38);
+}
+.icm-phone-receiver:before {
+  content: "\e910";
+}
+.icm-placeholder-filled-point:before {
+  content: "\e911";
+}
+.icm-prew:before {
+  content: "\e912";
+}
+.icm-safe .path1:before {
+  content: "\e913";
+  color: rgb(0, 0, 0);
+}
+.icm-safe .path2:before {
+  content: "\e914";
+  margin-left: -1em;
+  color: rgb(229, 30, 38);
+}
+.icm-safe .path3:before {
+  content: "\e915";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.icm-safe .path4:before {
+  content: "\e916";
+  margin-left: -1em;
+  color: rgb(229, 30, 38);
+}
+.icm-safe .path5:before {
+  content: "\e917";
+  margin-left: -1em;
+  color: rgb(229, 30, 38);
+}
+.icm-scroll:before {
+  content: "\e918";
+}
+.icm-shopping-cart:before {
+  content: "\e919";
+}
+.icm-single-bed:before {
+  content: "\e91a";
+}
+.icm-sofa .path1:before {
+  content: "\e91b";
+  color: rgb(0, 0, 0);
+}
+.icm-sofa .path2:before {
+  content: "\e91c";
+  margin-left: -1em;
+  color: rgb(229, 30, 38);
+}
+.icm-sofa .path3:before {
+  content: "\e91d";
+  margin-left: -1em;
+  color: rgb(229, 30, 38);
+}
+.icm-sofa .path4:before {
+  content: "\e91e";
+  margin-left: -1em;
+  color: rgb(229, 30, 38);
+}
+.icm-sofa .path5:before {
+  content: "\e91f";
+  margin-left: -1em;
+  color: rgb(229, 30, 38);
+}
+.icm-sofa .path6:before {
+  content: "\e920";
+  margin-left: -1em;
+  color: rgb(229, 30, 38);
+}
+.icm-storage .path1:before {
+  content: "\e921";
+  color: rgb(219, 31, 38);
+}
+.icm-storage .path2:before {
+  content: "\e922";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.icm-storage .path3:before {
+  content: "\e923";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.icm-storage .path4:before {
+  content: "\e924";
+  margin-left: -1em;
+  color: rgb(219, 31, 38);
+}
+.icm-Subtract:before {
+  content: "\e925";
+  color: #fff;
+}
+.icm-tag:before {
+  content: "\e926";
+}
+.icm-tv-table .path1:before {
+  content: "\e927";
+  color: rgb(219, 31, 38);
+}
+.icm-tv-table .path2:before {
+  content: "\e928";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.icm-wardrobe .path1:before {
+  content: "\e929";
+  color: rgb(219, 31, 38);
+}
+.icm-wardrobe .path2:before {
+  content: "\e92a";
+  margin-left: -1em;
+  color: rgb(219, 31, 38);
+}
+.icm-wardrobe .path3:before {
+  content: "\e92b";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.icm-warranty:before {
+  content: "\e92c";
+}
+.icm-zoom-in:before {
+  content: "\e92d";
+}
+.icm-armchair .path1:before {
+  content: "\e92e";
+  color: rgb(219, 31, 38);
+}
+.icm-armchair .path2:before {
+  content: "\e92f";
+  margin-left: -1em;
+  color: rgb(219, 31, 38);
+}
+.icm-armchair .path3:before {
+  content: "\e930";
+  margin-left: -1em;
+  color: rgb(219, 31, 38);
+}
+.icm-armchair .path4:before {
+  content: "\e931";
+  margin-left: -1em;
+  color: rgb(219, 31, 38);
+}
+.icm-armchair .path5:before {
+  content: "\e932";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.icm-arrow:before {
+  content: "\e933";
+}
+.icm-arrow-pointing-to-right:before {
+  content: "\e934";
+}
+.icm-bunk-bed .path1:before {
+  content: "\e935";
+  color: rgb(0, 0, 0);
+}
+.icm-bunk-bed .path2:before {
+  content: "\e936";
+  margin-left: -1em;
+  color: rgb(219, 31, 38);
+}
+.icm-bunk-bed .path3:before {
+  content: "\e937";
+  margin-left: -1em;
+  color: rgb(219, 31, 38);
+}
+.icm-bunk-bed .path4:before {
+  content: "\e938";
+  margin-left: -1em;
+  color: rgb(219, 31, 38);
+}
+.icm-bunk-bed .path5:before {
+  content: "\e939";
+  margin-left: -1em;
+  color: rgb(219, 31, 38);
+}
+.icm-buy:before {
+  content: "\e93a";
+}
+.icm-chair:before {
+  content: "\e93b";
+}
+.icm-chair-2 .path1:before {
+  content: "\e93c";
+  color: rgb(229, 30, 38);
+}
+.icm-chair-2 .path2:before {
+  content: "\e93d";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.icm-clock:before {
+  content: "\e93e";
+}
+.icm-close:before {
+  content: "\e93f";
+}
+.icm-delivery:before {
+  content: "\e940";
+}
+.icm-desk .path1:before {
+  content: "\e941";
+  color: rgb(0, 0, 0);
+}
+.icm-desk .path2:before {
+  content: "\e942";
+  margin-left: -1em;
+  color: rgb(229, 30, 38);
+}
+.icm-desk .path3:before {
+  content: "\e943";
+  margin-left: -1em;
+  color: rgb(229, 30, 38);
+}
+.icm-desk .path4:before {
+  content: "\e944";
+  margin-left: -1em;
+  color: rgb(229, 30, 38);
+}
+.icm-desk .path5:before {
+  content: "\e945";
+  margin-left: -1em;
+  color: rgb(229, 30, 38);
+}
+.icm-desk .path6:before {
+  content: "\e946";
+  margin-left: -1em;
+  color: rgb(229, 30, 38);
+}
+.icm-desk .path7:before {
+  content: "\e947";
+  margin-left: -1em;
+  color: rgb(229, 30, 38);
+}
+.icm-desk .path8:before {
+  content: "\e948";
+  margin-left: -1em;
+  color: rgb(229, 30, 38);
+}
+.icm-desk .path9:before {
+  content: "\e949";
+  margin-left: -1em;
+  color: rgb(229, 30, 38);
+}
+.icm-desk .path10:before {
+  content: "\e94a";
+  margin-left: -1em;
+  color: rgb(229, 30, 38);
+}
+.icm-dining-table .path1:before {
+  content: "\e94b";
+  color: rgb(219, 31, 38);
+}
+.icm-dining-table .path2:before {
+  content: "\e94c";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.icm-dining-table .path3:before {
+  content: "\e94d";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.icm-diploma:before {
+  content: "\e94e";
+}
+.icm-document:before {
+  content: "\e94f";
+}
+.icm-door-lock .path1:before {
+  content: "\e950";
+  color: rgb(219, 31, 38);
+}
+.icm-door-lock .path2:before {
+  content: "\e951";
+  margin-left: -1em;
+  color: rgb(219, 31, 38);
+}
+.icm-door-lock .path3:before {
+  content: "\e952";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.icm-door-lock .path4:before {
+  content: "\e953";
+  margin-left: -1em;
+  color: rgb(219, 31, 38);
+}
+.icm-envelope-shape:before {
+  content: "\e954";
+}
+.icm-file-cabinet .path1:before {
+  content: "\e955";
+  color: rgb(0, 0, 0);
+}
+.icm-file-cabinet .path2:before {
+  content: "\e956";
+  margin-left: -1em;
+  color: rgb(229, 30, 38);
+}
+.icm-file-cabinet .path3:before {
+  content: "\e957";
+  margin-left: -1em;
+  color: rgb(229, 30, 38);
+}
+.icm-file-cabinet .path4:before {
+  content: "\e958";
+  margin-left: -1em;
+  color: rgb(229, 30, 38);
+}
+.icm-file-cabinet .path5:before {
+  content: "\e959";
+  margin-left: -1em;
+  color: rgb(229, 30, 38);
+}
+.icm-House-furniture:before {
+  content: "\e95a";
+}
+.icm-info:before {
+  content: "\e95b";
+}

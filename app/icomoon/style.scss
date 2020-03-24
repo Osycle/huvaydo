@@ -1,0 +1,609 @@
+@import "variables";
+
+@font-face {
+  font-family: '#{$icomoon-font-family}';
+  src:
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.ttf?tk833k') format('truetype'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.woff?tk833k') format('woff'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.svg?tk833k##{$icomoon-font-family}') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icm-"], [class*=" icm-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: '#{$icomoon-font-family}' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icm-kitchen .path1 {
+  &:before {
+    content: $icm-kitchen-path1;  
+    color: rgb(219, 31, 38);
+  }
+}
+.icm-kitchen .path2 {
+  &:before {
+    content: $icm-kitchen-path2;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icm-kitchen .path3 {
+  &:before {
+    content: $icm-kitchen-path3;  
+    margin-left: -1em;  
+    color: rgb(219, 31, 38);
+  }
+}
+.icm-kitchen .path4 {
+  &:before {
+    content: $icm-kitchen-path4;  
+    margin-left: -1em;  
+    color: rgb(219, 31, 38);
+  }
+}
+.icm-kitchen .path5 {
+  &:before {
+    content: $icm-kitchen-path5;  
+    margin-left: -1em;  
+    color: rgb(219, 31, 38);
+  }
+}
+.icm-kitchen .path6 {
+  &:before {
+    content: $icm-kitchen-path6;  
+    margin-left: -1em;  
+    color: rgb(219, 31, 38);
+  }
+}
+.icm-magnifying-glass {
+  &:before {
+    content: $icm-magnifying-glass; 
+  }
+}
+.icm-next {
+  &:before {
+    content: $icm-next; 
+  }
+}
+.icm-office-furnituresvg {
+  &:before {
+    content: $icm-office-furnituresvg; 
+  }
+}
+.icm-office-chair-1 .path1 {
+  &:before {
+    content: $icm-office-chair-1-path1;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icm-office-chair-1 .path2 {
+  &:before {
+    content: $icm-office-chair-1-path2;  
+    margin-left: -1em;  
+    color: rgb(229, 30, 38);
+  }
+}
+.icm-office-chair-1 .path3 {
+  &:before {
+    content: $icm-office-chair-1-path3;  
+    margin-left: -1em;  
+    color: rgb(229, 30, 38);
+  }
+}
+.icm-office-chair .path1 {
+  &:before {
+    content: $icm-office-chair-path1;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icm-office-chair .path2 {
+  &:before {
+    content: $icm-office-chair-path2;  
+    margin-left: -1em;  
+    color: rgb(219, 31, 38);
+  }
+}
+.icm-office-chair .path3 {
+  &:before {
+    content: $icm-office-chair-path3;  
+    margin-left: -1em;  
+    color: rgb(219, 31, 38);
+  }
+}
+.icm-office-chair .path4 {
+  &:before {
+    content: $icm-office-chair-path4;  
+    margin-left: -1em;  
+    color: rgb(219, 31, 38);
+  }
+}
+.icm-phone-receiver {
+  &:before {
+    content: $icm-phone-receiver; 
+  }
+}
+.icm-placeholder-filled-point {
+  &:before {
+    content: $icm-placeholder-filled-point; 
+  }
+}
+.icm-prew {
+  &:before {
+    content: $icm-prew; 
+  }
+}
+.icm-safe .path1 {
+  &:before {
+    content: $icm-safe-path1;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icm-safe .path2 {
+  &:before {
+    content: $icm-safe-path2;  
+    margin-left: -1em;  
+    color: rgb(229, 30, 38);
+  }
+}
+.icm-safe .path3 {
+  &:before {
+    content: $icm-safe-path3;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icm-safe .path4 {
+  &:before {
+    content: $icm-safe-path4;  
+    margin-left: -1em;  
+    color: rgb(229, 30, 38);
+  }
+}
+.icm-safe .path5 {
+  &:before {
+    content: $icm-safe-path5;  
+    margin-left: -1em;  
+    color: rgb(229, 30, 38);
+  }
+}
+.icm-scroll {
+  &:before {
+    content: $icm-scroll; 
+  }
+}
+.icm-shopping-cart {
+  &:before {
+    content: $icm-shopping-cart; 
+  }
+}
+.icm-single-bed {
+  &:before {
+    content: $icm-single-bed; 
+  }
+}
+.icm-sofa .path1 {
+  &:before {
+    content: $icm-sofa-path1;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icm-sofa .path2 {
+  &:before {
+    content: $icm-sofa-path2;  
+    margin-left: -1em;  
+    color: rgb(229, 30, 38);
+  }
+}
+.icm-sofa .path3 {
+  &:before {
+    content: $icm-sofa-path3;  
+    margin-left: -1em;  
+    color: rgb(229, 30, 38);
+  }
+}
+.icm-sofa .path4 {
+  &:before {
+    content: $icm-sofa-path4;  
+    margin-left: -1em;  
+    color: rgb(229, 30, 38);
+  }
+}
+.icm-sofa .path5 {
+  &:before {
+    content: $icm-sofa-path5;  
+    margin-left: -1em;  
+    color: rgb(229, 30, 38);
+  }
+}
+.icm-sofa .path6 {
+  &:before {
+    content: $icm-sofa-path6;  
+    margin-left: -1em;  
+    color: rgb(229, 30, 38);
+  }
+}
+.icm-storage .path1 {
+  &:before {
+    content: $icm-storage-path1;  
+    color: rgb(219, 31, 38);
+  }
+}
+.icm-storage .path2 {
+  &:before {
+    content: $icm-storage-path2;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icm-storage .path3 {
+  &:before {
+    content: $icm-storage-path3;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icm-storage .path4 {
+  &:before {
+    content: $icm-storage-path4;  
+    margin-left: -1em;  
+    color: rgb(219, 31, 38);
+  }
+}
+.icm-Subtract {
+  &:before {
+    content: $icm-Subtract;     
+    color: #fff;
+  }
+}
+.icm-tag {
+  &:before {
+    content: $icm-tag; 
+  }
+}
+.icm-tv-table .path1 {
+  &:before {
+    content: $icm-tv-table-path1;  
+    color: rgb(219, 31, 38);
+  }
+}
+.icm-tv-table .path2 {
+  &:before {
+    content: $icm-tv-table-path2;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icm-wardrobe .path1 {
+  &:before {
+    content: $icm-wardrobe-path1;  
+    color: rgb(219, 31, 38);
+  }
+}
+.icm-wardrobe .path2 {
+  &:before {
+    content: $icm-wardrobe-path2;  
+    margin-left: -1em;  
+    color: rgb(219, 31, 38);
+  }
+}
+.icm-wardrobe .path3 {
+  &:before {
+    content: $icm-wardrobe-path3;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icm-warranty {
+  &:before {
+    content: $icm-warranty; 
+  }
+}
+.icm-zoom-in {
+  &:before {
+    content: $icm-zoom-in; 
+  }
+}
+.icm-armchair .path1 {
+  &:before {
+    content: $icm-armchair-path1;  
+    color: rgb(219, 31, 38);
+  }
+}
+.icm-armchair .path2 {
+  &:before {
+    content: $icm-armchair-path2;  
+    margin-left: -1em;  
+    color: rgb(219, 31, 38);
+  }
+}
+.icm-armchair .path3 {
+  &:before {
+    content: $icm-armchair-path3;  
+    margin-left: -1em;  
+    color: rgb(219, 31, 38);
+  }
+}
+.icm-armchair .path4 {
+  &:before {
+    content: $icm-armchair-path4;  
+    margin-left: -1em;  
+    color: rgb(219, 31, 38);
+  }
+}
+.icm-armchair .path5 {
+  &:before {
+    content: $icm-armchair-path5;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icm-arrow {
+  &:before {
+    content: $icm-arrow; 
+  }
+}
+.icm-arrow-pointing-to-right {
+  &:before {
+    content: $icm-arrow-pointing-to-right; 
+  }
+}
+.icm-bunk-bed .path1 {
+  &:before {
+    content: $icm-bunk-bed-path1;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icm-bunk-bed .path2 {
+  &:before {
+    content: $icm-bunk-bed-path2;  
+    margin-left: -1em;  
+    color: rgb(219, 31, 38);
+  }
+}
+.icm-bunk-bed .path3 {
+  &:before {
+    content: $icm-bunk-bed-path3;  
+    margin-left: -1em;  
+    color: rgb(219, 31, 38);
+  }
+}
+.icm-bunk-bed .path4 {
+  &:before {
+    content: $icm-bunk-bed-path4;  
+    margin-left: -1em;  
+    color: rgb(219, 31, 38);
+  }
+}
+.icm-bunk-bed .path5 {
+  &:before {
+    content: $icm-bunk-bed-path5;  
+    margin-left: -1em;  
+    color: rgb(219, 31, 38);
+  }
+}
+.icm-buy {
+  &:before {
+    content: $icm-buy; 
+  }
+}
+.icm-chair {
+  &:before {
+    content: $icm-chair; 
+  }
+}
+.icm-chair-2 .path1 {
+  &:before {
+    content: $icm-chair-2-path1;  
+    color: rgb(229, 30, 38);
+  }
+}
+.icm-chair-2 .path2 {
+  &:before {
+    content: $icm-chair-2-path2;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icm-clock {
+  &:before {
+    content: $icm-clock; 
+  }
+}
+.icm-close {
+  &:before {
+    content: $icm-close; 
+  }
+}
+.icm-delivery {
+  &:before {
+    content: $icm-delivery; 
+  }
+}
+.icm-desk .path1 {
+  &:before {
+    content: $icm-desk-path1;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icm-desk .path2 {
+  &:before {
+    content: $icm-desk-path2;  
+    margin-left: -1em;  
+    color: rgb(229, 30, 38);
+  }
+}
+.icm-desk .path3 {
+  &:before {
+    content: $icm-desk-path3;  
+    margin-left: -1em;  
+    color: rgb(229, 30, 38);
+  }
+}
+.icm-desk .path4 {
+  &:before {
+    content: $icm-desk-path4;  
+    margin-left: -1em;  
+    color: rgb(229, 30, 38);
+  }
+}
+.icm-desk .path5 {
+  &:before {
+    content: $icm-desk-path5;  
+    margin-left: -1em;  
+    color: rgb(229, 30, 38);
+  }
+}
+.icm-desk .path6 {
+  &:before {
+    content: $icm-desk-path6;  
+    margin-left: -1em;  
+    color: rgb(229, 30, 38);
+  }
+}
+.icm-desk .path7 {
+  &:before {
+    content: $icm-desk-path7;  
+    margin-left: -1em;  
+    color: rgb(229, 30, 38);
+  }
+}
+.icm-desk .path8 {
+  &:before {
+    content: $icm-desk-path8;  
+    margin-left: -1em;  
+    color: rgb(229, 30, 38);
+  }
+}
+.icm-desk .path9 {
+  &:before {
+    content: $icm-desk-path9;  
+    margin-left: -1em;  
+    color: rgb(229, 30, 38);
+  }
+}
+.icm-desk .path10 {
+  &:before {
+    content: $icm-desk-path10;  
+    margin-left: -1em;  
+    color: rgb(229, 30, 38);
+  }
+}
+.icm-dining-table .path1 {
+  &:before {
+    content: $icm-dining-table-path1;  
+    color: rgb(219, 31, 38);
+  }
+}
+.icm-dining-table .path2 {
+  &:before {
+    content: $icm-dining-table-path2;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icm-dining-table .path3 {
+  &:before {
+    content: $icm-dining-table-path3;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icm-diploma {
+  &:before {
+    content: $icm-diploma; 
+  }
+}
+.icm-document {
+  &:before {
+    content: $icm-document; 
+  }
+}
+.icm-door-lock .path1 {
+  &:before {
+    content: $icm-door-lock-path1;  
+    color: rgb(219, 31, 38);
+  }
+}
+.icm-door-lock .path2 {
+  &:before {
+    content: $icm-door-lock-path2;  
+    margin-left: -1em;  
+    color: rgb(219, 31, 38);
+  }
+}
+.icm-door-lock .path3 {
+  &:before {
+    content: $icm-door-lock-path3;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icm-door-lock .path4 {
+  &:before {
+    content: $icm-door-lock-path4;  
+    margin-left: -1em;  
+    color: rgb(219, 31, 38);
+  }
+}
+.icm-envelope-shape {
+  &:before {
+    content: $icm-envelope-shape; 
+  }
+}
+.icm-file-cabinet .path1 {
+  &:before {
+    content: $icm-file-cabinet-path1;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icm-file-cabinet .path2 {
+  &:before {
+    content: $icm-file-cabinet-path2;  
+    margin-left: -1em;  
+    color: rgb(229, 30, 38);
+  }
+}
+.icm-file-cabinet .path3 {
+  &:before {
+    content: $icm-file-cabinet-path3;  
+    margin-left: -1em;  
+    color: rgb(229, 30, 38);
+  }
+}
+.icm-file-cabinet .path4 {
+  &:before {
+    content: $icm-file-cabinet-path4;  
+    margin-left: -1em;  
+    color: rgb(229, 30, 38);
+  }
+}
+.icm-file-cabinet .path5 {
+  &:before {
+    content: $icm-file-cabinet-path5;  
+    margin-left: -1em;  
+    color: rgb(229, 30, 38);
+  }
+}
+.icm-House-furniture {
+  &:before {
+    content: $icm-House-furniture; 
+  }
+}
+.icm-info {
+  &:before {
+    content: $icm-info; 
+  }
+}
+
