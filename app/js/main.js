@@ -44,6 +44,9 @@
 		/*Owl carousel*/
 		var owlBtn = [
 			'<span class="owl-btn previous">'+
+				'<svg>'+
+  				'<circle cx="20" cy="20" r="19" />'+
+				'</svg>'+
 				'<i class="fa fa-angle-left"></i>'+
 			'</span>', 
 			'<span class="owl-btn next">'+
@@ -413,6 +416,17 @@
 		});
 		$(window).trigger("scroll");
 
+
+		$(document).on("mousemove", function(e){
+			var tar = $(e.target).closest(".pan-right");
+			if( tar.length ){
+				tar.addClass("hover")
+			}else{
+				$(".pan-right").removeClass("hover");
+			}
+
+			console.log(tar);
+		})
 
 
 	});

@@ -4,7 +4,7 @@
 		--Variables--
 */
 
-$color-1: #2b8fdb;
+$color-1: #db1f26;
 $color-2: #00bef3;
 $color-3: #046eb8;
 $color-4: #038acd ;
@@ -597,8 +597,9 @@ div.btn-style{
 	text-align: center;	
 	overflow: hidden;
 	font-family: $font-family-1;
-	border-radius: 2em;
-	font-size: em(14);
+	border-radius: 5px;
+	font-weight: 600;
+	box-shadow: 0 6px 40px rgba($color-1, 0.7);
 	&.text-wrap{
 		white-space: wrap;
 	}
@@ -611,14 +612,13 @@ div.btn-style{
 		position: relative;
 		min-width: 190px;
 		color: inherit;
-		text-transform: uppercase;
 		&:not([class*="p-h"]){
-			padding-left: 3.7em;
-			padding-right: 3.7em;
+			padding-left: 3.2em;
+			padding-right: 3.2em;
 		}
 		&:not([class*="p-v"]){
-			padding-top: 1.3em;
-			padding-bottom: 1.3em;
+			padding-top: 1em;
+			padding-bottom: 1em;
 		}
 		&:not([class*="flex"]){
 			display: block;
@@ -644,9 +644,7 @@ div.btn-style{
 	@extend .btn-style;
 	transition: all 0.2s ease;
 	position: relative;
-	text-transform: uppercase;
-	font-weight: 500;
-	background-image: $gradient-1;
+	background-color: $color-1;
 	small{
 		font-weight: 700;
 		font-size: 0.75em;
@@ -670,6 +668,10 @@ div.btn-style{
 	}
 	span{
 		vertical-align: middle;
+	}
+	i{
+		font-size: 0.9em;
+		padding-left: 15px;
 	}
 	&.btn-icon{
 		i{
@@ -1014,12 +1016,10 @@ h1, h2, h3, h4{
 	margin-bottom: 10px;
 	line-height: 120%;
 	position: relative;	
-	font-weight: 700;
 }
 h1{
-	font-size: em(60);
+	font-size: em(50);
 	margin-bottom: 15px;
-	font-weight: 700;
 	@media (max-width: 1600px) {
 		font-size: em(50);
 	}
@@ -1123,7 +1123,7 @@ main{
 .container-fluid-page{
 	@extend .container-fluid;
 	@media (min-width: 992px) {
-		width: calc(100% - 140px);
+		width: calc(100% - 220px);
 	}
 }
 
