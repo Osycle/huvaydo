@@ -2,10 +2,11 @@
 
 @font-face {
   font-family: '#{$icomoon-font-family}';
-  src:
-    url('#{$icomoon-font-path}/#{$icomoon-font-family}.ttf?tk833k') format('truetype'),
-    url('#{$icomoon-font-path}/#{$icomoon-font-family}.woff?tk833k') format('woff'),
-    url('#{$icomoon-font-path}/#{$icomoon-font-family}.svg?tk833k##{$icomoon-font-family}') format('svg');
+  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?6oycmy');
+  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?6oycmy#iefix') format('embedded-opentype'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.ttf?6oycmy') format('truetype'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.woff?6oycmy') format('woff'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.svg?6oycmy##{$icomoon-font-family}') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -26,105 +27,29 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-.icm-kitchen .path1 {
+.icm-office-chair-color .path1 {
   &:before {
-    content: $icm-kitchen-path1;  
-    color: rgb(219, 31, 38);
-  }
-}
-.icm-kitchen .path2 {
-  &:before {
-    content: $icm-kitchen-path2;  
-    margin-left: -1em;  
+    content: $icm-office-chair-color-path1;  
     color: rgb(0, 0, 0);
   }
 }
-.icm-kitchen .path3 {
+.icm-office-chair-color .path2 {
   &:before {
-    content: $icm-kitchen-path3;  
+    content: $icm-office-chair-color-path2;  
     margin-left: -1em;  
     color: rgb(219, 31, 38);
   }
 }
-.icm-kitchen .path4 {
+.icm-office-chair-color .path3 {
   &:before {
-    content: $icm-kitchen-path4;  
+    content: $icm-office-chair-color-path3;  
     margin-left: -1em;  
     color: rgb(219, 31, 38);
   }
 }
-.icm-kitchen .path5 {
+.icm-office-chair-color .path4 {
   &:before {
-    content: $icm-kitchen-path5;  
-    margin-left: -1em;  
-    color: rgb(219, 31, 38);
-  }
-}
-.icm-kitchen .path6 {
-  &:before {
-    content: $icm-kitchen-path6;  
-    margin-left: -1em;  
-    color: rgb(219, 31, 38);
-  }
-}
-.icm-magnifying-glass {
-  &:before {
-    content: $icm-magnifying-glass; 
-  }
-}
-.icm-next {
-  &:before {
-    content: $icm-next; 
-  }
-}
-.icm-office-furnituresvg {
-  &:before {
-    content: $icm-office-furnituresvg; 
-  }
-}
-.icm-office-chair-1 .path1 {
-  &:before {
-    content: $icm-office-chair-1-path1;  
-    color: rgb(0, 0, 0);
-  }
-}
-.icm-office-chair-1 .path2 {
-  &:before {
-    content: $icm-office-chair-1-path2;  
-    margin-left: -1em;  
-    color: rgb(229, 30, 38);
-  }
-}
-.icm-office-chair-1 .path3 {
-  &:before {
-    content: $icm-office-chair-1-path3;  
-    margin-left: -1em;  
-    color: rgb(229, 30, 38);
-  }
-}
-.icm-office-chair .path1 {
-  &:before {
-    content: $icm-office-chair-path1;  
-    color: rgb(0, 0, 0);
-  }
-}
-.icm-office-chair .path2 {
-  &:before {
-    content: $icm-office-chair-path2;  
-    margin-left: -1em;  
-    color: rgb(219, 31, 38);
-  }
-}
-.icm-office-chair .path3 {
-  &:before {
-    content: $icm-office-chair-path3;  
-    margin-left: -1em;  
-    color: rgb(219, 31, 38);
-  }
-}
-.icm-office-chair .path4 {
-  &:before {
-    content: $icm-office-chair-path4;  
+    content: $icm-office-chair-color-path4;  
     margin-left: -1em;  
     color: rgb(219, 31, 38);
   }
@@ -144,36 +69,41 @@
     content: $icm-prew; 
   }
 }
-.icm-safe .path1 {
+.icm-safe {
   &:before {
-    content: $icm-safe-path1;  
+    content: $icm-safe; 
+  }
+}
+.icm-safe-color .path1 {
+  &:before {
+    content: $icm-safe-color-path1;  
     color: rgb(0, 0, 0);
   }
 }
-.icm-safe .path2 {
+.icm-safe-color .path2 {
   &:before {
-    content: $icm-safe-path2;  
+    content: $icm-safe-color-path2;  
     margin-left: -1em;  
     color: rgb(229, 30, 38);
   }
 }
-.icm-safe .path3 {
+.icm-safe-color .path3 {
   &:before {
-    content: $icm-safe-path3;  
+    content: $icm-safe-color-path3;  
     margin-left: -1em;  
     color: rgb(0, 0, 0);
   }
 }
-.icm-safe .path4 {
+.icm-safe-color .path4 {
   &:before {
-    content: $icm-safe-path4;  
+    content: $icm-safe-color-path4;  
     margin-left: -1em;  
     color: rgb(229, 30, 38);
   }
 }
-.icm-safe .path5 {
+.icm-safe-color .path5 {
   &:before {
-    content: $icm-safe-path5;  
+    content: $icm-safe-color-path5;  
     margin-left: -1em;  
     color: rgb(229, 30, 38);
   }
@@ -193,70 +123,80 @@
     content: $icm-single-bed; 
   }
 }
-.icm-sofa .path1 {
+.icm-sofa {
   &:before {
-    content: $icm-sofa-path1;  
+    content: $icm-sofa; 
+  }
+}
+.icm-sofa-color .path1 {
+  &:before {
+    content: $icm-sofa-color-path1;  
     color: rgb(0, 0, 0);
   }
 }
-.icm-sofa .path2 {
+.icm-sofa-color .path2 {
   &:before {
-    content: $icm-sofa-path2;  
+    content: $icm-sofa-color-path2;  
     margin-left: -1em;  
     color: rgb(229, 30, 38);
   }
 }
-.icm-sofa .path3 {
+.icm-sofa-color .path3 {
   &:before {
-    content: $icm-sofa-path3;  
+    content: $icm-sofa-color-path3;  
     margin-left: -1em;  
     color: rgb(229, 30, 38);
   }
 }
-.icm-sofa .path4 {
+.icm-sofa-color .path4 {
   &:before {
-    content: $icm-sofa-path4;  
+    content: $icm-sofa-color-path4;  
     margin-left: -1em;  
     color: rgb(229, 30, 38);
   }
 }
-.icm-sofa .path5 {
+.icm-sofa-color .path5 {
   &:before {
-    content: $icm-sofa-path5;  
+    content: $icm-sofa-color-path5;  
     margin-left: -1em;  
     color: rgb(229, 30, 38);
   }
 }
-.icm-sofa .path6 {
+.icm-sofa-color .path6 {
   &:before {
-    content: $icm-sofa-path6;  
+    content: $icm-sofa-color-path6;  
     margin-left: -1em;  
     color: rgb(229, 30, 38);
   }
 }
-.icm-storage .path1 {
+.icm-storage {
   &:before {
-    content: $icm-storage-path1;  
+    content: $icm-storage; 
+  }
+}
+.icm-storage-color .path1 {
+  &:before {
+    content: $icm-storage-color-path1;  
     color: rgb(219, 31, 38);
   }
 }
-.icm-storage .path2 {
+.icm-storage-color .path2 {
   &:before {
-    content: $icm-storage-path2;  
+    content: $icm-storage-color-path2;  
     margin-left: -1em;  
     color: rgb(0, 0, 0);
   }
 }
-.icm-storage .path3 {
+.icm-storage-color .path3 {
   &:before {
-    content: $icm-storage-path3;  
+    content: $icm-storage-color-path3;  
     margin-left: -1em;  
     color: rgb(0, 0, 0);
   }
 }
-.icm-storage .path4 {
+.icm-storage-color .path4 {
   &:before {
-    content: $icm-storage-path4;  
+    content: $icm-storage-color-path4;  
     margin-left: -1em;  
     color: rgb(219, 31, 38);
   }
@@ -272,35 +212,45 @@
     content: $icm-tag; 
   }
 }
-.icm-tv-table .path1 {
+.icm-tv-table {
   &:before {
-    content: $icm-tv-table-path1;  
+    content: $icm-tv-table; 
+  }
+}
+.icm-tv-table-color .path1 {
+  &:before {
+    content: $icm-tv-table-color-path1;  
     color: rgb(219, 31, 38);
   }
 }
-.icm-tv-table .path2 {
+.icm-tv-table-color .path2 {
   &:before {
-    content: $icm-tv-table-path2;  
+    content: $icm-tv-table-color-path2;  
     margin-left: -1em;  
     color: rgb(0, 0, 0);
   }
 }
-.icm-wardrobe .path1 {
+.icm-wardrobe {
   &:before {
-    content: $icm-wardrobe-path1;  
+    content: $icm-wardrobe; 
+  }
+}
+.icm-wardrobe-color .path1 {
+  &:before {
+    content: $icm-wardrobe-color-path1;  
     color: rgb(219, 31, 38);
   }
 }
-.icm-wardrobe .path2 {
+.icm-wardrobe-color .path2 {
   &:before {
-    content: $icm-wardrobe-path2;  
+    content: $icm-wardrobe-color-path2;  
     margin-left: -1em;  
     color: rgb(219, 31, 38);
   }
 }
-.icm-wardrobe .path3 {
+.icm-wardrobe-color .path3 {
   &:before {
-    content: $icm-wardrobe-path3;  
+    content: $icm-wardrobe-color-path3;  
     margin-left: -1em;  
     color: rgb(0, 0, 0);
   }
@@ -315,43 +265,43 @@
     content: $icm-zoom-in; 
   }
 }
-.icm-armchair .path1 {
+.icm-armchair {
   &:before {
-    content: $icm-armchair-path1;  
+    content: $icm-armchair; 
+  }
+}
+.icm-armchair-color .path1 {
+  &:before {
+    content: $icm-armchair-color-path1;  
     color: rgb(219, 31, 38);
   }
 }
-.icm-armchair .path2 {
+.icm-armchair-color .path2 {
   &:before {
-    content: $icm-armchair-path2;  
+    content: $icm-armchair-color-path2;  
     margin-left: -1em;  
     color: rgb(219, 31, 38);
   }
 }
-.icm-armchair .path3 {
+.icm-armchair-color .path3 {
   &:before {
-    content: $icm-armchair-path3;  
+    content: $icm-armchair-color-path3;  
     margin-left: -1em;  
     color: rgb(219, 31, 38);
   }
 }
-.icm-armchair .path4 {
+.icm-armchair-color .path4 {
   &:before {
-    content: $icm-armchair-path4;  
+    content: $icm-armchair-color-path4;  
     margin-left: -1em;  
     color: rgb(219, 31, 38);
   }
 }
-.icm-armchair .path5 {
+.icm-armchair-color .path5 {
   &:before {
-    content: $icm-armchair-path5;  
+    content: $icm-armchair-color-path5;  
     margin-left: -1em;  
     color: rgb(0, 0, 0);
-  }
-}
-.icm-arrow {
-  &:before {
-    content: $icm-arrow; 
   }
 }
 .icm-arrow-pointing-to-right {
@@ -359,36 +309,41 @@
     content: $icm-arrow-pointing-to-right; 
   }
 }
-.icm-bunk-bed .path1 {
+.icm-bunk-bed {
   &:before {
-    content: $icm-bunk-bed-path1;  
+    content: $icm-bunk-bed; 
+  }
+}
+.icm-bunk-bed-color .path1 {
+  &:before {
+    content: $icm-bunk-bed-color-path1;  
     color: rgb(0, 0, 0);
   }
 }
-.icm-bunk-bed .path2 {
+.icm-bunk-bed-color .path2 {
   &:before {
-    content: $icm-bunk-bed-path2;  
+    content: $icm-bunk-bed-color-path2;  
     margin-left: -1em;  
     color: rgb(219, 31, 38);
   }
 }
-.icm-bunk-bed .path3 {
+.icm-bunk-bed-color .path3 {
   &:before {
-    content: $icm-bunk-bed-path3;  
+    content: $icm-bunk-bed-color-path3;  
     margin-left: -1em;  
     color: rgb(219, 31, 38);
   }
 }
-.icm-bunk-bed .path4 {
+.icm-bunk-bed-color .path4 {
   &:before {
-    content: $icm-bunk-bed-path4;  
+    content: $icm-bunk-bed-color-path4;  
     margin-left: -1em;  
     color: rgb(219, 31, 38);
   }
 }
-.icm-bunk-bed .path5 {
+.icm-bunk-bed-color .path5 {
   &:before {
-    content: $icm-bunk-bed-path5;  
+    content: $icm-bunk-bed-color-path5;  
     margin-left: -1em;  
     color: rgb(219, 31, 38);
   }
@@ -403,15 +358,15 @@
     content: $icm-chair; 
   }
 }
-.icm-chair-2 .path1 {
+.icm-chair-color .path1 {
   &:before {
-    content: $icm-chair-2-path1;  
+    content: $icm-chair-color-path1;  
     color: rgb(229, 30, 38);
   }
 }
-.icm-chair-2 .path2 {
+.icm-chair-color .path2 {
   &:before {
-    content: $icm-chair-2-path2;  
+    content: $icm-chair-color-path2;  
     margin-left: -1em;  
     color: rgb(0, 0, 0);
   }
@@ -431,91 +386,101 @@
     content: $icm-delivery; 
   }
 }
-.icm-desk .path1 {
+.icm-desk {
   &:before {
-    content: $icm-desk-path1;  
+    content: $icm-desk; 
+  }
+}
+.icm-desk-color .path1 {
+  &:before {
+    content: $icm-desk-color-path1;  
     color: rgb(0, 0, 0);
   }
 }
-.icm-desk .path2 {
+.icm-desk-color .path2 {
   &:before {
-    content: $icm-desk-path2;  
+    content: $icm-desk-color-path2;  
     margin-left: -1em;  
     color: rgb(229, 30, 38);
   }
 }
-.icm-desk .path3 {
+.icm-desk-color .path3 {
   &:before {
-    content: $icm-desk-path3;  
+    content: $icm-desk-color-path3;  
     margin-left: -1em;  
     color: rgb(229, 30, 38);
   }
 }
-.icm-desk .path4 {
+.icm-desk-color .path4 {
   &:before {
-    content: $icm-desk-path4;  
+    content: $icm-desk-color-path4;  
     margin-left: -1em;  
     color: rgb(229, 30, 38);
   }
 }
-.icm-desk .path5 {
+.icm-desk-color .path5 {
   &:before {
-    content: $icm-desk-path5;  
+    content: $icm-desk-color-path5;  
     margin-left: -1em;  
     color: rgb(229, 30, 38);
   }
 }
-.icm-desk .path6 {
+.icm-desk-color .path6 {
   &:before {
-    content: $icm-desk-path6;  
+    content: $icm-desk-color-path6;  
     margin-left: -1em;  
     color: rgb(229, 30, 38);
   }
 }
-.icm-desk .path7 {
+.icm-desk-color .path7 {
   &:before {
-    content: $icm-desk-path7;  
+    content: $icm-desk-color-path7;  
     margin-left: -1em;  
     color: rgb(229, 30, 38);
   }
 }
-.icm-desk .path8 {
+.icm-desk-color .path8 {
   &:before {
-    content: $icm-desk-path8;  
+    content: $icm-desk-color-path8;  
     margin-left: -1em;  
     color: rgb(229, 30, 38);
   }
 }
-.icm-desk .path9 {
+.icm-desk-color .path9 {
   &:before {
-    content: $icm-desk-path9;  
+    content: $icm-desk-color-path9;  
     margin-left: -1em;  
     color: rgb(229, 30, 38);
   }
 }
-.icm-desk .path10 {
+.icm-desk-color .path10 {
   &:before {
-    content: $icm-desk-path10;  
+    content: $icm-desk-color-path10;  
     margin-left: -1em;  
     color: rgb(229, 30, 38);
   }
 }
-.icm-dining-table .path1 {
+.icm-dining-table {
   &:before {
-    content: $icm-dining-table-path1;  
+    content: $icm-dining-table; 
+  }
+}
+.icm-dining-table-color .path1 {
+  &:before {
+    content: $icm-dining-table-color-path1;  
     color: rgb(219, 31, 38);
   }
 }
-.icm-dining-table .path2 {
+.icm-dining-table-color .path2 {
   &:before {
-    content: $icm-dining-table-path2;  
+    content: $icm-dining-table-color-path2;  
     margin-left: -1em;  
     color: rgb(0, 0, 0);
   }
 }
-.icm-dining-table .path3 {
+.icm-dining-table-color .path3 {
   &:before {
-    content: $icm-dining-table-path3;  
+    content: $icm-dining-table-color-path3;  
     margin-left: -1em;  
     color: rgb(0, 0, 0);
   }
@@ -530,29 +495,34 @@
     content: $icm-document; 
   }
 }
-.icm-door-lock .path1 {
+.icm-door-lock {
   &:before {
-    content: $icm-door-lock-path1;  
+    content: $icm-door-lock; 
+  }
+}
+.icm-door-lock-color .path1 {
+  &:before {
+    content: $icm-door-lock-color-path1;  
     color: rgb(219, 31, 38);
   }
 }
-.icm-door-lock .path2 {
+.icm-door-lock-color .path2 {
   &:before {
-    content: $icm-door-lock-path2;  
+    content: $icm-door-lock-color-path2;  
     margin-left: -1em;  
     color: rgb(219, 31, 38);
   }
 }
-.icm-door-lock .path3 {
+.icm-door-lock-color .path3 {
   &:before {
-    content: $icm-door-lock-path3;  
+    content: $icm-door-lock-color-path3;  
     margin-left: -1em;  
     color: rgb(0, 0, 0);
   }
 }
-.icm-door-lock .path4 {
+.icm-door-lock-color .path4 {
   &:before {
-    content: $icm-door-lock-path4;  
+    content: $icm-door-lock-color-path4;  
     margin-left: -1em;  
     color: rgb(219, 31, 38);
   }
@@ -562,48 +532,139 @@
     content: $icm-envelope-shape; 
   }
 }
-.icm-file-cabinet .path1 {
+.icm-file-cabinet {
   &:before {
-    content: $icm-file-cabinet-path1;  
+    content: $icm-file-cabinet; 
+  }
+}
+.icm-file-cabinet-color .path1 {
+  &:before {
+    content: $icm-file-cabinet-color-path1;  
     color: rgb(0, 0, 0);
   }
 }
-.icm-file-cabinet .path2 {
+.icm-file-cabinet-color .path2 {
   &:before {
-    content: $icm-file-cabinet-path2;  
+    content: $icm-file-cabinet-color-path2;  
     margin-left: -1em;  
     color: rgb(229, 30, 38);
   }
 }
-.icm-file-cabinet .path3 {
+.icm-file-cabinet-color .path3 {
   &:before {
-    content: $icm-file-cabinet-path3;  
+    content: $icm-file-cabinet-color-path3;  
     margin-left: -1em;  
     color: rgb(229, 30, 38);
   }
 }
-.icm-file-cabinet .path4 {
+.icm-file-cabinet-color .path4 {
   &:before {
-    content: $icm-file-cabinet-path4;  
+    content: $icm-file-cabinet-color-path4;  
     margin-left: -1em;  
     color: rgb(229, 30, 38);
   }
 }
-.icm-file-cabinet .path5 {
+.icm-file-cabinet-color .path5 {
   &:before {
-    content: $icm-file-cabinet-path5;  
+    content: $icm-file-cabinet-color-path5;  
     margin-left: -1em;  
     color: rgb(229, 30, 38);
-  }
-}
-.icm-House-furniture {
-  &:before {
-    content: $icm-House-furniture; 
   }
 }
 .icm-info {
   &:before {
     content: $icm-info; 
+  }
+}
+.icm-kitchen {
+  &:before {
+    content: $icm-kitchen; 
+  }
+}
+.icm-kitchen-color .path1 {
+  &:before {
+    content: $icm-kitchen-color-path1;  
+    color: rgb(219, 31, 38);
+  }
+}
+.icm-kitchen-color .path2 {
+  &:before {
+    content: $icm-kitchen-color-path2;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icm-kitchen-color .path3 {
+  &:before {
+    content: $icm-kitchen-color-path3;  
+    margin-left: -1em;  
+    color: rgb(219, 31, 38);
+  }
+}
+.icm-kitchen-color .path4 {
+  &:before {
+    content: $icm-kitchen-color-path4;  
+    margin-left: -1em;  
+    color: rgb(219, 31, 38);
+  }
+}
+.icm-kitchen-color .path5 {
+  &:before {
+    content: $icm-kitchen-color-path5;  
+    margin-left: -1em;  
+    color: rgb(219, 31, 38);
+  }
+}
+.icm-kitchen-color .path6 {
+  &:before {
+    content: $icm-kitchen-color-path6;  
+    margin-left: -1em;  
+    color: rgb(219, 31, 38);
+  }
+}
+.icm-magnifying-glass {
+  &:before {
+    content: $icm-magnifying-glass; 
+  }
+}
+.icm-next {
+  &:before {
+    content: $icm-next; 
+  }
+}
+.icm-office-furnituresvg {
+  &:before {
+    content: $icm-office-furnituresvg; 
+  }
+}
+.icm-office-chair {
+  &:before {
+    content: $icm-office-chair; 
+  }
+}
+.icm-office-chair-1 {
+  &:before {
+    content: $icm-office-chair-1; 
+  }
+}
+.icm-office-chair-1-color .path1 {
+  &:before {
+    content: $icm-office-chair-1-color-path1;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icm-office-chair-1-color .path2 {
+  &:before {
+    content: $icm-office-chair-1-color-path2;  
+    margin-left: -1em;  
+    color: rgb(229, 30, 38);
+  }
+}
+.icm-office-chair-1-color .path3 {
+  &:before {
+    content: $icm-office-chair-1-color-path3;  
+    margin-left: -1em;  
+    color: rgb(229, 30, 38);
   }
 }
 

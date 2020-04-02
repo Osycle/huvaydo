@@ -1,9 +1,10 @@
 @font-face {
   font-family: 'icomoon';
-  src:
-    url('fonts/icomoon.ttf?tk833k') format('truetype'),
-    url('fonts/icomoon.woff?tk833k') format('woff'),
-    url('fonts/icomoon.svg?tk833k#icomoon') format('svg');
+  src:  url('fonts/icomoon.eot?6oycmy');
+  src:  url('fonts/icomoon.eot?6oycmy#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?6oycmy') format('truetype'),
+    url('fonts/icomoon.woff?6oycmy') format('woff'),
+    url('fonts/icomoon.svg?6oycmy#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -24,399 +25,435 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-.icm-kitchen .path1:before {
+.icm-office-chair-color .path1:before {
   content: "\e900";
-  color: rgb(219, 31, 38);
-}
-.icm-kitchen .path2:before {
-  content: "\e901";
-  margin-left: -1em;
   color: rgb(0, 0, 0);
 }
-.icm-kitchen .path3:before {
+.icm-office-chair-color .path2:before {
+  content: "\e901";
+  margin-left: -1em;
+  color: rgb(219, 31, 38);
+}
+.icm-office-chair-color .path3:before {
   content: "\e902";
   margin-left: -1em;
   color: rgb(219, 31, 38);
 }
-.icm-kitchen .path4:before {
+.icm-office-chair-color .path4:before {
   content: "\e903";
   margin-left: -1em;
   color: rgb(219, 31, 38);
 }
-.icm-kitchen .path5:before {
+.icm-phone-receiver:before {
   content: "\e904";
-  margin-left: -1em;
-  color: rgb(219, 31, 38);
 }
-.icm-kitchen .path6:before {
+.icm-placeholder-filled-point:before {
   content: "\e905";
-  margin-left: -1em;
-  color: rgb(219, 31, 38);
 }
-.icm-magnifying-glass:before {
+.icm-prew:before {
   content: "\e906";
 }
-.icm-next:before {
+.icm-safe:before {
   content: "\e907";
 }
-.icm-office-furnituresvg:before {
+.icm-safe-color .path1:before {
   content: "\e908";
-}
-.icm-office-chair-1 .path1:before {
-  content: "\e909";
   color: rgb(0, 0, 0);
 }
-.icm-office-chair-1 .path2:before {
-  content: "\e90a";
+.icm-safe-color .path2:before {
+  content: "\e909";
   margin-left: -1em;
   color: rgb(229, 30, 38);
 }
-.icm-office-chair-1 .path3:before {
+.icm-safe-color .path3:before {
+  content: "\e90a";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.icm-safe-color .path4:before {
   content: "\e90b";
   margin-left: -1em;
   color: rgb(229, 30, 38);
 }
-.icm-office-chair .path1:before {
+.icm-safe-color .path5:before {
   content: "\e90c";
-  color: rgb(0, 0, 0);
-}
-.icm-office-chair .path2:before {
-  content: "\e90d";
-  margin-left: -1em;
-  color: rgb(219, 31, 38);
-}
-.icm-office-chair .path3:before {
-  content: "\e90e";
-  margin-left: -1em;
-  color: rgb(219, 31, 38);
-}
-.icm-office-chair .path4:before {
-  content: "\e90f";
-  margin-left: -1em;
-  color: rgb(219, 31, 38);
-}
-.icm-phone-receiver:before {
-  content: "\e910";
-}
-.icm-placeholder-filled-point:before {
-  content: "\e911";
-}
-.icm-prew:before {
-  content: "\e912";
-}
-.icm-safe .path1:before {
-  content: "\e913";
-  color: rgb(0, 0, 0);
-}
-.icm-safe .path2:before {
-  content: "\e914";
-  margin-left: -1em;
-  color: rgb(229, 30, 38);
-}
-.icm-safe .path3:before {
-  content: "\e915";
-  margin-left: -1em;
-  color: rgb(0, 0, 0);
-}
-.icm-safe .path4:before {
-  content: "\e916";
-  margin-left: -1em;
-  color: rgb(229, 30, 38);
-}
-.icm-safe .path5:before {
-  content: "\e917";
   margin-left: -1em;
   color: rgb(229, 30, 38);
 }
 .icm-scroll:before {
-  content: "\e918";
+  content: "\e90d";
 }
 .icm-shopping-cart:before {
-  content: "\e919";
+  content: "\e90e";
 }
 .icm-single-bed:before {
-  content: "\e91a";
+  content: "\e90f";
 }
-.icm-sofa .path1:before {
-  content: "\e91b";
+.icm-sofa:before {
+  content: "\e910";
+}
+.icm-sofa-color .path1:before {
+  content: "\e911";
   color: rgb(0, 0, 0);
 }
-.icm-sofa .path2:before {
-  content: "\e91c";
+.icm-sofa-color .path2:before {
+  content: "\e912";
   margin-left: -1em;
   color: rgb(229, 30, 38);
 }
-.icm-sofa .path3:before {
-  content: "\e91d";
+.icm-sofa-color .path3:before {
+  content: "\e913";
   margin-left: -1em;
   color: rgb(229, 30, 38);
 }
-.icm-sofa .path4:before {
-  content: "\e91e";
+.icm-sofa-color .path4:before {
+  content: "\e914";
   margin-left: -1em;
   color: rgb(229, 30, 38);
 }
-.icm-sofa .path5:before {
-  content: "\e91f";
+.icm-sofa-color .path5:before {
+  content: "\e915";
   margin-left: -1em;
   color: rgb(229, 30, 38);
 }
-.icm-sofa .path6:before {
-  content: "\e920";
+.icm-sofa-color .path6:before {
+  content: "\e916";
   margin-left: -1em;
   color: rgb(229, 30, 38);
 }
-.icm-storage .path1:before {
-  content: "\e921";
+.icm-storage:before {
+  content: "\e917";
+}
+.icm-storage-color .path1:before {
+  content: "\e918";
   color: rgb(219, 31, 38);
 }
-.icm-storage .path2:before {
-  content: "\e922";
+.icm-storage-color .path2:before {
+  content: "\e919";
   margin-left: -1em;
   color: rgb(0, 0, 0);
 }
-.icm-storage .path3:before {
-  content: "\e923";
+.icm-storage-color .path3:before {
+  content: "\e91a";
   margin-left: -1em;
   color: rgb(0, 0, 0);
 }
-.icm-storage .path4:before {
-  content: "\e924";
+.icm-storage-color .path4:before {
+  content: "\e91b";
   margin-left: -1em;
   color: rgb(219, 31, 38);
 }
 .icm-Subtract:before {
-  content: "\e925";
+  content: "\e91c";
   color: #fff;
 }
 .icm-tag:before {
-  content: "\e926";
+  content: "\e91d";
 }
-.icm-tv-table .path1:before {
-  content: "\e927";
+.icm-tv-table:before {
+  content: "\e91e";
+}
+.icm-tv-table-color .path1:before {
+  content: "\e91f";
   color: rgb(219, 31, 38);
 }
-.icm-tv-table .path2:before {
-  content: "\e928";
+.icm-tv-table-color .path2:before {
+  content: "\e920";
   margin-left: -1em;
   color: rgb(0, 0, 0);
 }
-.icm-wardrobe .path1:before {
-  content: "\e929";
+.icm-wardrobe:before {
+  content: "\e921";
+}
+.icm-wardrobe-color .path1:before {
+  content: "\e922";
   color: rgb(219, 31, 38);
 }
-.icm-wardrobe .path2:before {
-  content: "\e92a";
+.icm-wardrobe-color .path2:before {
+  content: "\e923";
   margin-left: -1em;
   color: rgb(219, 31, 38);
 }
-.icm-wardrobe .path3:before {
-  content: "\e92b";
+.icm-wardrobe-color .path3:before {
+  content: "\e924";
   margin-left: -1em;
   color: rgb(0, 0, 0);
 }
 .icm-warranty:before {
-  content: "\e92c";
+  content: "\e925";
 }
 .icm-zoom-in:before {
-  content: "\e92d";
+  content: "\e926";
 }
-.icm-armchair .path1:before {
-  content: "\e92e";
+.icm-armchair:before {
+  content: "\e927";
+}
+.icm-armchair-color .path1:before {
+  content: "\e928";
   color: rgb(219, 31, 38);
 }
-.icm-armchair .path2:before {
-  content: "\e92f";
+.icm-armchair-color .path2:before {
+  content: "\e929";
   margin-left: -1em;
   color: rgb(219, 31, 38);
 }
-.icm-armchair .path3:before {
+.icm-armchair-color .path3:before {
+  content: "\e92a";
+  margin-left: -1em;
+  color: rgb(219, 31, 38);
+}
+.icm-armchair-color .path4:before {
+  content: "\e92b";
+  margin-left: -1em;
+  color: rgb(219, 31, 38);
+}
+.icm-armchair-color .path5:before {
+  content: "\e92c";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.icm-arrow-pointing-to-right:before {
+  content: "\e92d";
+}
+.icm-bunk-bed:before {
+  content: "\e92e";
+}
+.icm-bunk-bed-color .path1:before {
+  content: "\e92f";
+  color: rgb(0, 0, 0);
+}
+.icm-bunk-bed-color .path2:before {
   content: "\e930";
   margin-left: -1em;
   color: rgb(219, 31, 38);
 }
-.icm-armchair .path4:before {
+.icm-bunk-bed-color .path3:before {
   content: "\e931";
   margin-left: -1em;
   color: rgb(219, 31, 38);
 }
-.icm-armchair .path5:before {
+.icm-bunk-bed-color .path4:before {
   content: "\e932";
   margin-left: -1em;
-  color: rgb(0, 0, 0);
+  color: rgb(219, 31, 38);
 }
-.icm-arrow:before {
+.icm-bunk-bed-color .path5:before {
   content: "\e933";
-}
-.icm-arrow-pointing-to-right:before {
-  content: "\e934";
-}
-.icm-bunk-bed .path1:before {
-  content: "\e935";
-  color: rgb(0, 0, 0);
-}
-.icm-bunk-bed .path2:before {
-  content: "\e936";
-  margin-left: -1em;
-  color: rgb(219, 31, 38);
-}
-.icm-bunk-bed .path3:before {
-  content: "\e937";
-  margin-left: -1em;
-  color: rgb(219, 31, 38);
-}
-.icm-bunk-bed .path4:before {
-  content: "\e938";
-  margin-left: -1em;
-  color: rgb(219, 31, 38);
-}
-.icm-bunk-bed .path5:before {
-  content: "\e939";
   margin-left: -1em;
   color: rgb(219, 31, 38);
 }
 .icm-buy:before {
-  content: "\e93a";
+  content: "\e934";
 }
 .icm-chair:before {
-  content: "\e93b";
+  content: "\e935";
 }
-.icm-chair-2 .path1:before {
-  content: "\e93c";
+.icm-chair-color .path1:before {
+  content: "\e936";
   color: rgb(229, 30, 38);
 }
-.icm-chair-2 .path2:before {
-  content: "\e93d";
+.icm-chair-color .path2:before {
+  content: "\e937";
   margin-left: -1em;
   color: rgb(0, 0, 0);
 }
 .icm-clock:before {
-  content: "\e93e";
+  content: "\e938";
 }
 .icm-close:before {
-  content: "\e93f";
+  content: "\e939";
 }
 .icm-delivery:before {
-  content: "\e940";
+  content: "\e93a";
 }
-.icm-desk .path1:before {
-  content: "\e941";
+.icm-desk:before {
+  content: "\e93b";
+}
+.icm-desk-color .path1:before {
+  content: "\e93c";
   color: rgb(0, 0, 0);
 }
-.icm-desk .path2:before {
+.icm-desk-color .path2:before {
+  content: "\e93d";
+  margin-left: -1em;
+  color: rgb(229, 30, 38);
+}
+.icm-desk-color .path3:before {
+  content: "\e93e";
+  margin-left: -1em;
+  color: rgb(229, 30, 38);
+}
+.icm-desk-color .path4:before {
+  content: "\e93f";
+  margin-left: -1em;
+  color: rgb(229, 30, 38);
+}
+.icm-desk-color .path5:before {
+  content: "\e940";
+  margin-left: -1em;
+  color: rgb(229, 30, 38);
+}
+.icm-desk-color .path6:before {
+  content: "\e941";
+  margin-left: -1em;
+  color: rgb(229, 30, 38);
+}
+.icm-desk-color .path7:before {
   content: "\e942";
   margin-left: -1em;
   color: rgb(229, 30, 38);
 }
-.icm-desk .path3:before {
+.icm-desk-color .path8:before {
   content: "\e943";
   margin-left: -1em;
   color: rgb(229, 30, 38);
 }
-.icm-desk .path4:before {
+.icm-desk-color .path9:before {
   content: "\e944";
   margin-left: -1em;
   color: rgb(229, 30, 38);
 }
-.icm-desk .path5:before {
+.icm-desk-color .path10:before {
   content: "\e945";
   margin-left: -1em;
   color: rgb(229, 30, 38);
 }
-.icm-desk .path6:before {
+.icm-dining-table:before {
   content: "\e946";
-  margin-left: -1em;
-  color: rgb(229, 30, 38);
 }
-.icm-desk .path7:before {
+.icm-dining-table-color .path1:before {
   content: "\e947";
-  margin-left: -1em;
-  color: rgb(229, 30, 38);
-}
-.icm-desk .path8:before {
-  content: "\e948";
-  margin-left: -1em;
-  color: rgb(229, 30, 38);
-}
-.icm-desk .path9:before {
-  content: "\e949";
-  margin-left: -1em;
-  color: rgb(229, 30, 38);
-}
-.icm-desk .path10:before {
-  content: "\e94a";
-  margin-left: -1em;
-  color: rgb(229, 30, 38);
-}
-.icm-dining-table .path1:before {
-  content: "\e94b";
   color: rgb(219, 31, 38);
 }
-.icm-dining-table .path2:before {
-  content: "\e94c";
+.icm-dining-table-color .path2:before {
+  content: "\e948";
   margin-left: -1em;
   color: rgb(0, 0, 0);
 }
-.icm-dining-table .path3:before {
-  content: "\e94d";
+.icm-dining-table-color .path3:before {
+  content: "\e949";
   margin-left: -1em;
   color: rgb(0, 0, 0);
 }
 .icm-diploma:before {
-  content: "\e94e";
+  content: "\e94a";
 }
 .icm-document:before {
-  content: "\e94f";
+  content: "\e94b";
 }
-.icm-door-lock .path1:before {
-  content: "\e950";
+.icm-door-lock:before {
+  content: "\e94c";
+}
+.icm-door-lock-color .path1:before {
+  content: "\e94d";
   color: rgb(219, 31, 38);
 }
-.icm-door-lock .path2:before {
-  content: "\e951";
+.icm-door-lock-color .path2:before {
+  content: "\e94e";
   margin-left: -1em;
   color: rgb(219, 31, 38);
 }
-.icm-door-lock .path3:before {
-  content: "\e952";
+.icm-door-lock-color .path3:before {
+  content: "\e94f";
   margin-left: -1em;
   color: rgb(0, 0, 0);
 }
-.icm-door-lock .path4:before {
-  content: "\e953";
+.icm-door-lock-color .path4:before {
+  content: "\e950";
   margin-left: -1em;
   color: rgb(219, 31, 38);
 }
 .icm-envelope-shape:before {
-  content: "\e954";
+  content: "\e951";
 }
-.icm-file-cabinet .path1:before {
-  content: "\e955";
+.icm-file-cabinet:before {
+  content: "\e952";
+}
+.icm-file-cabinet-color .path1:before {
+  content: "\e953";
   color: rgb(0, 0, 0);
 }
-.icm-file-cabinet .path2:before {
+.icm-file-cabinet-color .path2:before {
+  content: "\e954";
+  margin-left: -1em;
+  color: rgb(229, 30, 38);
+}
+.icm-file-cabinet-color .path3:before {
+  content: "\e955";
+  margin-left: -1em;
+  color: rgb(229, 30, 38);
+}
+.icm-file-cabinet-color .path4:before {
   content: "\e956";
   margin-left: -1em;
   color: rgb(229, 30, 38);
 }
-.icm-file-cabinet .path3:before {
+.icm-file-cabinet-color .path5:before {
   content: "\e957";
   margin-left: -1em;
   color: rgb(229, 30, 38);
 }
-.icm-file-cabinet .path4:before {
-  content: "\e958";
-  margin-left: -1em;
-  color: rgb(229, 30, 38);
-}
-.icm-file-cabinet .path5:before {
-  content: "\e959";
-  margin-left: -1em;
-  color: rgb(229, 30, 38);
-}
-.icm-House-furniture:before {
-  content: "\e95a";
-}
 .icm-info:before {
+  content: "\e958";
+}
+.icm-kitchen:before {
+  content: "\e959";
+}
+.icm-kitchen-color .path1:before {
+  content: "\e95a";
+  color: rgb(219, 31, 38);
+}
+.icm-kitchen-color .path2:before {
   content: "\e95b";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.icm-kitchen-color .path3:before {
+  content: "\e95c";
+  margin-left: -1em;
+  color: rgb(219, 31, 38);
+}
+.icm-kitchen-color .path4:before {
+  content: "\e95d";
+  margin-left: -1em;
+  color: rgb(219, 31, 38);
+}
+.icm-kitchen-color .path5:before {
+  content: "\e95e";
+  margin-left: -1em;
+  color: rgb(219, 31, 38);
+}
+.icm-kitchen-color .path6:before {
+  content: "\e95f";
+  margin-left: -1em;
+  color: rgb(219, 31, 38);
+}
+.icm-magnifying-glass:before {
+  content: "\e960";
+}
+.icm-next:before {
+  content: "\e961";
+}
+.icm-office-furnituresvg:before {
+  content: "\e962";
+}
+.icm-office-chair:before {
+  content: "\e963";
+}
+.icm-office-chair-1:before {
+  content: "\e964";
+}
+.icm-office-chair-1-color .path1:before {
+  content: "\e965";
+  color: rgb(0, 0, 0);
+}
+.icm-office-chair-1-color .path2:before {
+  content: "\e966";
+  margin-left: -1em;
+  color: rgb(229, 30, 38);
+}
+.icm-office-chair-1-color .path3:before {
+  content: "\e967";
+  margin-left: -1em;
+  color: rgb(229, 30, 38);
 }

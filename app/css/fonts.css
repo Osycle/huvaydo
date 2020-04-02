@@ -9,7 +9,8 @@
 
 @font-face {
   font-family: "icomoon";
-  src: url("../icomoon/fonts/icomoon.ttf?tk833k") format("truetype"), url("../icomoon/fonts/icomoon.woff?tk833k") format("woff"), url("../icomoon/fonts/icomoon.svg?tk833k#icomoon") format("svg");
+  src: url("../icomoon/fonts/icomoon.eot?6oycmy");
+  src: url("../icomoon/fonts/icomoon.eot?6oycmy#iefix") format("embedded-opentype"), url("../icomoon/fonts/icomoon.ttf?6oycmy") format("truetype"), url("../icomoon/fonts/icomoon.woff?6oycmy") format("woff"), url("../icomoon/fonts/icomoon.svg?6oycmy#icomoon") format("svg");
   font-weight: normal;
   font-style: normal;
   font-display: block; }
@@ -27,401 +28,437 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale; }
 
-.icm-kitchen .path1:before {
+.icm-office-chair-color .path1:before {
   content: "";
-  color: #db1f26; }
-
-.icm-kitchen .path2:before {
-  content: "";
-  margin-left: -1em;
   color: black; }
 
-.icm-kitchen .path3:before {
+.icm-office-chair-color .path2:before {
+  content: "";
+  margin-left: -1em;
+  color: #db1f26; }
+
+.icm-office-chair-color .path3:before {
   content: "";
   margin-left: -1em;
   color: #db1f26; }
 
-.icm-kitchen .path4:before {
+.icm-office-chair-color .path4:before {
   content: "";
   margin-left: -1em;
   color: #db1f26; }
 
-.icm-kitchen .path5:before {
-  content: "";
-  margin-left: -1em;
-  color: #db1f26; }
+.icm-phone-receiver:before {
+  content: ""; }
 
-.icm-kitchen .path6:before {
-  content: "";
-  margin-left: -1em;
-  color: #db1f26; }
+.icm-placeholder-filled-point:before {
+  content: ""; }
 
-.icm-magnifying-glass:before {
+.icm-prew:before {
   content: ""; }
 
-.icm-next:before {
+.icm-safe:before {
   content: ""; }
 
-.icm-office-furnituresvg:before {
-  content: ""; }
-
-.icm-office-chair-1 .path1:before {
-  content: "";
+.icm-safe-color .path1:before {
+  content: "";
   color: black; }
 
-.icm-office-chair-1 .path2:before {
-  content: "";
+.icm-safe-color .path2:before {
+  content: "";
   margin-left: -1em;
   color: #e51e26; }
 
-.icm-office-chair-1 .path3:before {
+.icm-safe-color .path3:before {
+  content: "";
+  margin-left: -1em;
+  color: black; }
+
+.icm-safe-color .path4:before {
   content: "";
   margin-left: -1em;
   color: #e51e26; }
 
-.icm-office-chair .path1:before {
+.icm-safe-color .path5:before {
   content: "";
-  color: black; }
-
-.icm-office-chair .path2:before {
-  content: "";
-  margin-left: -1em;
-  color: #db1f26; }
-
-.icm-office-chair .path3:before {
-  content: "";
-  margin-left: -1em;
-  color: #db1f26; }
-
-.icm-office-chair .path4:before {
-  content: "";
-  margin-left: -1em;
-  color: #db1f26; }
-
-.icm-phone-receiver:before {
-  content: ""; }
-
-.icm-placeholder-filled-point:before {
-  content: ""; }
-
-.icm-prew:before {
-  content: ""; }
-
-.icm-safe .path1:before {
-  content: "";
-  color: black; }
-
-.icm-safe .path2:before {
-  content: "";
-  margin-left: -1em;
-  color: #e51e26; }
-
-.icm-safe .path3:before {
-  content: "";
-  margin-left: -1em;
-  color: black; }
-
-.icm-safe .path4:before {
-  content: "";
-  margin-left: -1em;
-  color: #e51e26; }
-
-.icm-safe .path5:before {
-  content: "";
   margin-left: -1em;
   color: #e51e26; }
 
 .icm-scroll:before {
-  content: ""; }
+  content: ""; }
 
 .icm-shopping-cart:before {
-  content: ""; }
+  content: ""; }
 
 .icm-single-bed:before {
-  content: ""; }
+  content: ""; }
 
-.icm-sofa .path1:before {
-  content: "";
+.icm-sofa:before {
+  content: ""; }
+
+.icm-sofa-color .path1:before {
+  content: "";
   color: black; }
 
-.icm-sofa .path2:before {
-  content: "";
+.icm-sofa-color .path2:before {
+  content: "";
   margin-left: -1em;
   color: #e51e26; }
 
-.icm-sofa .path3:before {
-  content: "";
+.icm-sofa-color .path3:before {
+  content: "";
   margin-left: -1em;
   color: #e51e26; }
 
-.icm-sofa .path4:before {
-  content: "";
+.icm-sofa-color .path4:before {
+  content: "";
   margin-left: -1em;
   color: #e51e26; }
 
-.icm-sofa .path5:before {
-  content: "";
+.icm-sofa-color .path5:before {
+  content: "";
   margin-left: -1em;
   color: #e51e26; }
 
-.icm-sofa .path6:before {
-  content: "";
+.icm-sofa-color .path6:before {
+  content: "";
   margin-left: -1em;
   color: #e51e26; }
 
-.icm-storage .path1:before {
-  content: "";
+.icm-storage:before {
+  content: ""; }
+
+.icm-storage-color .path1:before {
+  content: "";
   color: #db1f26; }
 
-.icm-storage .path2:before {
-  content: "";
+.icm-storage-color .path2:before {
+  content: "";
   margin-left: -1em;
   color: black; }
 
-.icm-storage .path3:before {
-  content: "";
+.icm-storage-color .path3:before {
+  content: "";
   margin-left: -1em;
   color: black; }
 
-.icm-storage .path4:before {
-  content: "";
+.icm-storage-color .path4:before {
+  content: "";
   margin-left: -1em;
   color: #db1f26; }
 
 .icm-Subtract:before {
-  content: "";
+  content: "";
   color: #fff; }
 
 .icm-tag:before {
-  content: ""; }
+  content: ""; }
 
-.icm-tv-table .path1:before {
-  content: "";
+.icm-tv-table:before {
+  content: ""; }
+
+.icm-tv-table-color .path1:before {
+  content: "";
   color: #db1f26; }
 
-.icm-tv-table .path2:before {
-  content: "";
+.icm-tv-table-color .path2:before {
+  content: "";
   margin-left: -1em;
   color: black; }
 
-.icm-wardrobe .path1:before {
-  content: "";
+.icm-wardrobe:before {
+  content: ""; }
+
+.icm-wardrobe-color .path1:before {
+  content: "";
   color: #db1f26; }
 
-.icm-wardrobe .path2:before {
-  content: "";
+.icm-wardrobe-color .path2:before {
+  content: "";
   margin-left: -1em;
   color: #db1f26; }
 
-.icm-wardrobe .path3:before {
-  content: "";
+.icm-wardrobe-color .path3:before {
+  content: "";
   margin-left: -1em;
   color: black; }
 
 .icm-warranty:before {
-  content: ""; }
+  content: ""; }
 
 .icm-zoom-in:before {
-  content: ""; }
+  content: ""; }
 
-.icm-armchair .path1:before {
-  content: "";
+.icm-armchair:before {
+  content: ""; }
+
+.icm-armchair-color .path1:before {
+  content: "";
   color: #db1f26; }
 
-.icm-armchair .path2:before {
-  content: "";
+.icm-armchair-color .path2:before {
+  content: "";
   margin-left: -1em;
   color: #db1f26; }
 
-.icm-armchair .path3:before {
+.icm-armchair-color .path3:before {
+  content: "";
+  margin-left: -1em;
+  color: #db1f26; }
+
+.icm-armchair-color .path4:before {
+  content: "";
+  margin-left: -1em;
+  color: #db1f26; }
+
+.icm-armchair-color .path5:before {
+  content: "";
+  margin-left: -1em;
+  color: black; }
+
+.icm-arrow-pointing-to-right:before {
+  content: ""; }
+
+.icm-bunk-bed:before {
+  content: ""; }
+
+.icm-bunk-bed-color .path1:before {
+  content: "";
+  color: black; }
+
+.icm-bunk-bed-color .path2:before {
   content: "";
   margin-left: -1em;
   color: #db1f26; }
 
-.icm-armchair .path4:before {
+.icm-bunk-bed-color .path3:before {
   content: "";
   margin-left: -1em;
   color: #db1f26; }
 
-.icm-armchair .path5:before {
+.icm-bunk-bed-color .path4:before {
   content: "";
   margin-left: -1em;
-  color: black; }
-
-.icm-arrow:before {
-  content: ""; }
-
-.icm-arrow-pointing-to-right:before {
-  content: ""; }
-
-.icm-bunk-bed .path1:before {
-  content: "";
-  color: black; }
-
-.icm-bunk-bed .path2:before {
-  content: "";
-  margin-left: -1em;
   color: #db1f26; }
 
-.icm-bunk-bed .path3:before {
-  content: "";
-  margin-left: -1em;
-  color: #db1f26; }
-
-.icm-bunk-bed .path4:before {
-  content: "";
-  margin-left: -1em;
-  color: #db1f26; }
-
-.icm-bunk-bed .path5:before {
-  content: "";
+.icm-bunk-bed-color .path5:before {
+  content: "";
   margin-left: -1em;
   color: #db1f26; }
 
 .icm-buy:before {
-  content: ""; }
+  content: ""; }
 
 .icm-chair:before {
-  content: ""; }
+  content: ""; }
 
-.icm-chair-2 .path1:before {
-  content: "";
+.icm-chair-color .path1:before {
+  content: "";
   color: #e51e26; }
 
-.icm-chair-2 .path2:before {
-  content: "";
+.icm-chair-color .path2:before {
+  content: "";
   margin-left: -1em;
   color: black; }
 
 .icm-clock:before {
-  content: ""; }
+  content: ""; }
 
 .icm-close:before {
-  content: ""; }
+  content: ""; }
 
 .icm-delivery:before {
-  content: ""; }
+  content: ""; }
 
-.icm-desk .path1:before {
-  content: "";
+.icm-desk:before {
+  content: ""; }
+
+.icm-desk-color .path1:before {
+  content: "";
   color: black; }
 
-.icm-desk .path2:before {
+.icm-desk-color .path2:before {
+  content: "";
+  margin-left: -1em;
+  color: #e51e26; }
+
+.icm-desk-color .path3:before {
+  content: "";
+  margin-left: -1em;
+  color: #e51e26; }
+
+.icm-desk-color .path4:before {
+  content: "";
+  margin-left: -1em;
+  color: #e51e26; }
+
+.icm-desk-color .path5:before {
+  content: "";
+  margin-left: -1em;
+  color: #e51e26; }
+
+.icm-desk-color .path6:before {
+  content: "";
+  margin-left: -1em;
+  color: #e51e26; }
+
+.icm-desk-color .path7:before {
   content: "";
   margin-left: -1em;
   color: #e51e26; }
 
-.icm-desk .path3:before {
+.icm-desk-color .path8:before {
   content: "";
   margin-left: -1em;
   color: #e51e26; }
 
-.icm-desk .path4:before {
+.icm-desk-color .path9:before {
   content: "";
   margin-left: -1em;
   color: #e51e26; }
 
-.icm-desk .path5:before {
+.icm-desk-color .path10:before {
   content: "";
   margin-left: -1em;
   color: #e51e26; }
 
-.icm-desk .path6:before {
-  content: "";
-  margin-left: -1em;
-  color: #e51e26; }
+.icm-dining-table:before {
+  content: ""; }
 
-.icm-desk .path7:before {
+.icm-dining-table-color .path1:before {
   content: "";
-  margin-left: -1em;
-  color: #e51e26; }
-
-.icm-desk .path8:before {
-  content: "";
-  margin-left: -1em;
-  color: #e51e26; }
-
-.icm-desk .path9:before {
-  content: "";
-  margin-left: -1em;
-  color: #e51e26; }
-
-.icm-desk .path10:before {
-  content: "";
-  margin-left: -1em;
-  color: #e51e26; }
-
-.icm-dining-table .path1:before {
-  content: "";
   color: #db1f26; }
 
-.icm-dining-table .path2:before {
-  content: "";
+.icm-dining-table-color .path2:before {
+  content: "";
   margin-left: -1em;
   color: black; }
 
-.icm-dining-table .path3:before {
-  content: "";
+.icm-dining-table-color .path3:before {
+  content: "";
   margin-left: -1em;
   color: black; }
 
 .icm-diploma:before {
-  content: ""; }
+  content: ""; }
 
 .icm-document:before {
-  content: ""; }
+  content: ""; }
 
-.icm-door-lock .path1:before {
-  content: "";
+.icm-door-lock:before {
+  content: ""; }
+
+.icm-door-lock-color .path1:before {
+  content: "";
   color: #db1f26; }
 
-.icm-door-lock .path2:before {
-  content: "";
+.icm-door-lock-color .path2:before {
+  content: "";
   margin-left: -1em;
   color: #db1f26; }
 
-.icm-door-lock .path3:before {
-  content: "";
+.icm-door-lock-color .path3:before {
+  content: "";
   margin-left: -1em;
   color: black; }
 
-.icm-door-lock .path4:before {
-  content: "";
+.icm-door-lock-color .path4:before {
+  content: "";
   margin-left: -1em;
   color: #db1f26; }
 
 .icm-envelope-shape:before {
-  content: ""; }
+  content: ""; }
 
-.icm-file-cabinet .path1:before {
-  content: "";
+.icm-file-cabinet:before {
+  content: ""; }
+
+.icm-file-cabinet-color .path1:before {
+  content: "";
   color: black; }
 
-.icm-file-cabinet .path2:before {
+.icm-file-cabinet-color .path2:before {
+  content: "";
+  margin-left: -1em;
+  color: #e51e26; }
+
+.icm-file-cabinet-color .path3:before {
+  content: "";
+  margin-left: -1em;
+  color: #e51e26; }
+
+.icm-file-cabinet-color .path4:before {
   content: "";
   margin-left: -1em;
   color: #e51e26; }
 
-.icm-file-cabinet .path3:before {
+.icm-file-cabinet-color .path5:before {
   content: "";
   margin-left: -1em;
   color: #e51e26; }
 
-.icm-file-cabinet .path4:before {
-  content: "";
-  margin-left: -1em;
-  color: #e51e26; }
-
-.icm-file-cabinet .path5:before {
-  content: "";
-  margin-left: -1em;
-  color: #e51e26; }
-
-.icm-House-furniture:before {
-  content: ""; }
-
 .icm-info:before {
-  content: ""; }
+  content: ""; }
+
+.icm-kitchen:before {
+  content: ""; }
+
+.icm-kitchen-color .path1:before {
+  content: "";
+  color: #db1f26; }
+
+.icm-kitchen-color .path2:before {
+  content: "";
+  margin-left: -1em;
+  color: black; }
+
+.icm-kitchen-color .path3:before {
+  content: "";
+  margin-left: -1em;
+  color: #db1f26; }
+
+.icm-kitchen-color .path4:before {
+  content: "";
+  margin-left: -1em;
+  color: #db1f26; }
+
+.icm-kitchen-color .path5:before {
+  content: "";
+  margin-left: -1em;
+  color: #db1f26; }
+
+.icm-kitchen-color .path6:before {
+  content: "";
+  margin-left: -1em;
+  color: #db1f26; }
+
+.icm-magnifying-glass:before {
+  content: ""; }
+
+.icm-next:before {
+  content: ""; }
+
+.icm-office-furnituresvg:before {
+  content: ""; }
+
+.icm-office-chair:before {
+  content: ""; }
+
+.icm-office-chair-1:before {
+  content: ""; }
+
+.icm-office-chair-1-color .path1:before {
+  content: "";
+  color: black; }
+
+.icm-office-chair-1-color .path2:before {
+  content: "";
+  margin-left: -1em;
+  color: #e51e26; }
+
+.icm-office-chair-1-color .path3:before {
+  content: "";
+  margin-left: -1em;
+  color: #e51e26; }
 
 @font-face {
   font-family: 'Gilroy';

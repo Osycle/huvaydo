@@ -2,6 +2,9 @@
 <!-- Generator: Adobe Illustrator 23.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#E51E26;}
+</style>
 <g id="Cabinet-2">
 	<path d="M472,16H40c-13.3,0-24,10.7-24,24v400c0,13.3,10.7,24,24,24l0,0h9.5c-0.9,2.6-1.4,5.3-1.5,8c0,13.3,10.7,24,24,24
 		s24-10.7,24-24c0-2.7-0.5-5.4-1.5-8h322.9c-0.9,2.6-1.4,5.3-1.5,8c0,13.3,10.7,24,24,24s24-10.7,24-24c0-2.7-0.5-5.4-1.5-8h9.5
@@ -12,9 +15,9 @@
 		z M432,368v16H304v-16H432z M304,400h128v16H304V400z M304,432h128v16H304V432z M448,472c0,4.4-3.6,8-8,8s-8-3.6-8-8s3.6-8,8-8
 		S448,467.6,448,472z M472,448h-24v-80h8c4.4,0,8-3.6,8-8v-32c0-4.4-3.6-8-8-8H312c-4.4,0-8,3.6-8,8v24h-8c-4.4,0-8,3.6-8,8v88h-8
 		V240h200v200C480,444.4,476.4,448,472,448z"/>
-	<path d="M128,168h32v16h-32V168z"/>
-	<path d="M128,64h32v16h-32V64z"/>
-	<path d="M128,280h32v16h-32V280z"/>
-	<path d="M128,392h32v16h-32V392z"/>
+	<path class="st0" d="M128,168h32v16h-32V168z"/>
+	<path class="st0" d="M128,64h32v16h-32V64z"/>
+	<path class="st0" d="M128,280h32v16h-32V280z"/>
+	<path class="st0" d="M128,392h32v16h-32V392z"/>
 </g>
 </svg>

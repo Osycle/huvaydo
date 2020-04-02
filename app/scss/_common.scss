@@ -21,7 +21,7 @@ $color-footer: #0071BC;
 $color-gray-1: #f5f5f5; //#bdbdbd
 $color-gray-2: #eeeeee;
 $color-gray-3: #dddddd;
-$color-gray-4: #666666;
+$color-gray-4: #4a4a4a;
 $color-gray-5: #222222;
 
 
@@ -906,7 +906,7 @@ body{
 	text-size-adjust: none;
 	font: $fs-def#{px} $font-family-1;
 	overflow-x: hidden;
-	//color: white;
+	color: $color-gray-4;
 	//height: auto;
 	//background-image: url('../img/bg/bg-body.jpg');
 	background-color: white;
@@ -1006,7 +1006,7 @@ h1,h2,h3,h4,h5{
 	color: inherit;
 	line-height: 140%;
 	font-weight: 500;
-	font-family: $font-family-2;
+	
 }
 .h1{
 	@extend h1;
@@ -1018,6 +1018,7 @@ h1, h2, h3, h4{
 	position: relative;	
 }
 h1{
+	font-family: $font-family-2;
 	font-size: em(50);
 	margin-bottom: 15px;
 	@media (max-width: 1600px) {
@@ -1046,6 +1047,7 @@ h3{
 }
 h4{
 	font-size: em(18);
+	font-weight: 700;
 }
 h5{	
 	line-height: 150%;

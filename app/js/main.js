@@ -18,11 +18,6 @@
 			setTimeout(function() { AOS.refresh(); }, 1);
 		}
 
-
-		
-
-
-
 		/* bootstrap tooltip*/		
 		$('[data-toggle="tooltip"]').tooltip({
 			html: true
@@ -424,8 +419,14 @@
 			}else{
 				$(".pan-right").removeClass("hover");
 			}
+		})
 
-			console.log(tar);
+		$(".menu-list").hover(function(e){
+			console.log(e)
+			//$(".subtabs").addClass("hover");
+		}, function(e){
+			//$(".subtabs").removeClass("hover");
+			console.log(e)
 		})
 
 
