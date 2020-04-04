@@ -93,14 +93,3 @@
 
 
 }
-@mixin cols-items( $items: 3, $tag: figure ) {
-	margin-left: -15px;
-	margin-right: -15px;
-	&>*{
-		padding-left: 15px;
-		padding-right: 15px;
-		float: left;
-		width: 100/$items#{"%"};
-	}
-
-}
