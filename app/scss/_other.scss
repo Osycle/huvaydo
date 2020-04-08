@@ -246,7 +246,7 @@ html{
 		height: 3px;
 		display: inline-block;
 		position: relative;
-		background-color: $color-gray-3;
+		background-color: white;
 		&.is-selected, &.active{
 			z-index: 2;
 			position: relative;
@@ -619,8 +619,8 @@ div.owl-nav{
 .owl-btn{
 	background-color: transparent;
 	//background-image: $gradient-2;
-	width: em(50);
-	height: em(50);
+	width: 40px;
+	height: 40px;
 	z-index: 2;
 	display: inline-block;
 	display: flex;
@@ -629,6 +629,8 @@ div.owl-nav{
 	align-items: center;
 	transition: all 0.2s ease-in-out;
 	color: black;
+	border: 1px solid white;
+	border-radius: 50%;
 	&:nth-child(1){
 		margin-right: 2px;
 	}
@@ -636,20 +638,11 @@ div.owl-nav{
 		opacity: 1;
 		cursor: pointer;
 		color: $color-1;
+		border-color: $color-1;
 	}
 
-	.arrow, i{
-		font-size: 34px;
-		fill: white;
-	}
 	i{
 		display: inline-block;
-	}
-	svg{
-		width: 50px;
-		display: block;
-		height: 50px;
-		//display: inline-block;
 	}
 	.arrow{
     transform-origin: 0 0;
@@ -661,16 +654,13 @@ div.owl-nav{
     display: flex;
     justify-content: space-between;
 		transform: translateY(-50%);
-	}
-	.owl-btn{
-		.arrow{
-			fill: $color-1;
+		.owl-prev{
+			margin-left: -65px;
 		}
-		&:hover{
-			.arrow{
-				
-			}
+		.owl-next{
+			margin-right: -65px;
 		}
+
 	}
 }
 .owl-btn-1{

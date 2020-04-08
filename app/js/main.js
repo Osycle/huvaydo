@@ -39,24 +39,74 @@
 		/*Owl carousel*/
 		var owlBtn = [
 			'<span class="owl-btn previous">'+
-				'<svg>'+
-  				'<circle cx="20" cy="20" r="19" />'+
-				'</svg>'+
 				'<i class="fa fa-angle-left"></i>'+
 			'</span>', 
 			'<span class="owl-btn next">'+
 				'<i class="fa fa-angle-right"></i>'+
 			'</span>'
 		]
+		var owlSvgProgress = 
+			'<svg class="btn-svg" width="40" height="40" viewPort="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg">'+
+			  '<circle progress r="20" cx="20" cy="20"></circle>'+
+			'</svg>';
 
-		$(".bnr-carousel-items.owl-carousel").owlCarousel({
-			nav: !checkSm(),
+
+
+	window.bnrCrs = $(".bnr-carousel-items.owl-carousel");
+
+		window.owlProgress = function(crs, style){
+			var that = this;
+			crs.time = 10;
+			crs.isPause = undefined;
+			crs.tick = undefined;
+			crs.percentTime = undefined;
+			crs.owlProgressStart = function(){
+				var that = this;
+				crs.percentTime = 0;
+				crs.isPause = false;
+				crs.tick = setInterval(owlProgressInterval, 10);
+			}
+			function owlProgressInterval () {
+				if (crs.isPause === false) {
+					crs.percentTime += 1 / crs.time;
+					crs.find(".btn-svg [progress]").css({ "strokeDashoffset": 125-crs.percentTime*1.25});
+
+					if (crs.percentTime >= 100) {
+						crs.trigger("next.owl.carousel");
+						//.trigger("to.owl.carousel", 0)
+						crs.percentTime = 0;
+					}
+				}
+			}
+			crs.owlProgressMove = function(){
+				clearTimeout(crs.tick);
+				crs.owlProgressStart();
+			}
+
+
+			crs.owlProgressStart();
+			console.log(style)
+			if(style){
+				crs.find(".owl-dot").append(owlSvgProgress);
+			}else{
+				crs.find(".owl-btn.next").append(owlSvgProgress);
+			}
+			crs.on("changed.owl.carousel", function(){
+				crs.owlProgressMove();
+			})
+		}
+		
+		bnrCrs.owlCarousel({
+			nav: true,
 			loop: true,
 			//items: 3,
-			dots: !checkSm(),
+			dots: true,
 			dotsEach: false,
-			autoplay: true,
-			touchDrag: checkSm(),
+			//autoplay: true,
+			//autoplayTimeout: 7000,
+			touchDrag: false,
+			mouseDrag: false,
+			//smartSpeed: 0,
 			responsive:{
 				0:{items:1},
 				991:{items:1}
@@ -64,8 +114,12 @@
 			navText : owlBtn,
 			margin: 0
 		});
+		owlProgress(bnrCrs);
 
-		$(".staff-items.owl-carousel").owlCarousel({
+
+
+
+		$(".short-catalog-items.owl-carousel").owlCarousel({
 			nav: true,
 			loop: false,
 			//items: 3,
@@ -75,41 +129,43 @@
 			touchDrag: false,
 			responsive:{
 				0:{items:1},
-				991:{items:3}
-			},
-			navText : owlBtn,
-			margin: 0
-		});
-		$(".partners-items.owl-carousel").owlCarousel({
-			nav: true,
-			loop: false,
-			//items: 3,
-			dots: false,
-			dotsEach: false,
-			autoplay: true,
-			touchDrag: false,
-			responsive:{
-				0:{items:1},
-				991:{items:5}
-			},
-			navText : owlBtn,
-			margin: 40
-		});
-		$(".products-other .owl-carousel").owlCarousel({
-			nav: true,
-			loop: false,
-			//items: 3,
-			dots: false,
-			dotsEach: false,
-			autoplay: true,
-			touchDrag: false,
-			responsive:{
-				0:{items:1},
-				991:{items:2}
+				991:{items:4}
 			},
 			navText : owlBtn,
 			margin: 30
 		});
+		$(".short-assort .owl-carousel").owlCarousel({
+			nav: true,
+			loop: false,
+			//items: 3,
+			dots: !checkSm(),
+			dotsEach: false,
+			autoplay: true,
+			touchDrag: false,
+			responsive:{
+				0:{items:1},
+				991:{items:4}
+			},
+			navText : owlBtn,
+			margin: 30
+		});
+		window.x = $(".newproducts .owl-carousel").owlCarousel({
+			nav: true,
+			loop: true,
+			//items: 3,
+			dots: !checkSm(),
+			dotsEach: true,
+			autoplay: false,
+			touchDrag: false,
+			responsive:{
+				0:{items:1},
+				991:{items:4}
+			},
+			navText : owlBtn,
+			margin: 30
+		});
+		owlProgress($(".newproducts .owl-carousel"), true);
+		
 
 
 
@@ -159,8 +215,8 @@
 		$("#min-menu").mmenu({
 			extensions: [
 				"wrapper-bg", // wrapper-bg black
-				"theme-dark",
-				//"theme-white",
+				//"theme-dark",
+				"theme-white",
 				//"fullscreen",
 				"listview-50",
 				"fx-panels-slide-up",
@@ -421,12 +477,14 @@
 			}
 		})
 
-		$(".menu-list").hover(function(e){
-			console.log(e)
-			//$(".subtabs").addClass("hover");
-		}, function(e){
-			//$(".subtabs").removeClass("hover");
-			console.log(e)
+		$(".basket-btn").on("click", function(e){
+			console.log($(e.target).closest(".basket-btn"));
+			if($(e.target).hasClass("bg"))
+				$(e.target).siblings('[for="basket_block"]').trigger("click");
+		});
+
+		$("[toggle-assort-btn]").on("click", function(){
+			$(".assort-home, .assort-office").toggleClass("active");
 		})
 
 

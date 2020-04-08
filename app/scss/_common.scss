@@ -18,7 +18,7 @@ $font-family-3: "sans-serif";
 $color-scroll: $color-1;
 $color-footer: #0071BC;
 
-$color-gray-1: #f5f5f5; //#bdbdbd
+$color-gray-1: #f4f4f4; //#bdbdbd
 $color-gray-2: #eeeeee;
 $color-gray-3: #dddddd;
 $color-gray-4: #4a4a4a;
@@ -192,22 +192,16 @@ $gradient-gray-2: linear-gradient(to bottom, #e8e8e8, white);
 */
 .breadcrumb-container{
 	position: relative;
-	background-color: $color-gray-3;
-	.lang{
-		padding: 10px 0;
-		margin: 20px 0;
-		li{
-			border-color: #4c4c4c !important;
-		}
-	}
 }
 .breadcrumb{
-	padding: 8px 0;
+	padding: 30px 0;
 	font-size: 0.9em;
 	z-index: 1;
 	position: relative;
 	font-weight: 500;
+	border-radius: 0;
 	background-color: transparent;
+	border-bottom: 1px solid $color-gray-3;
 	@media (min-width: 992px) {
 		margin-top: 20px;
 	}
@@ -223,15 +217,15 @@ $gradient-gray-2: linear-gradient(to bottom, #e8e8e8, white);
 	}
 	a{
 		vertical-align: middle;
-		color: $color-1;
+		color: #666;
 	}
 	.active{
 		a{
-			color: #4c4c4c;
+			color: #666;
 		}
 	}
 	& > li + li:before{
-		color: #4c4c4c;
+		color: #666;
 		//font-family: FontAwesome;
 		content: "/";
 		font-weight: normal;
@@ -429,7 +423,7 @@ table {
 	box-shadow: 0 5px 15px -15px rgba(black, 0.8);
 }
 .shadow-style-1{
-	box-shadow: 0px 4px 30px -2px rgba($color-1, 0.2);	
+	box-shadow: 0px 0px 30px -4px rgba($color-1, 0.6);	
 }
 .border-default{
 	border: 1px solid $color-gray-3;
@@ -462,25 +456,48 @@ table {
 
 @for $i from 1 through 6 {
 	.boxes-#{$i}{
-		figure, .boxes-cell{
+		figure, .cell{
 			width: #{100%/$i};
-			margin-left: 15px;
-			margin-right: 15px;
+
 			@media (max-width: 1200px){
 				@if $i >= 3{
-					width: #{100%/2};
+					width: 50%;
 				}
+			}
+			@media (max-width: 991px){
+				width: 100%;
 			}
 		}
 	}
 }
 
-[class*="boxes"]{
+[class*="boxes-"]{
 	margin-left: -15px;
 	margin-right: -15px;
-	display: flex;
-	@media (max-width: 991px){
-		flex-direction: column;
+	&:not(.serried){
+		figure, .cell{
+			padding-left: 15px;
+			padding-right: 15px;
+		}
+	}
+	&.serried{
+		margin-left: 0;
+		margin-right: 0;
+	}
+	&:not(.owl-carousel){
+		display: flex;
+		flex-wrap: wrap;
+		@media (max-width: 991px){
+		  width: 100%;
+    	margin: auto;
+			figure, .cell{
+				padding-left: 0;
+				padding-right: 0;
+			}
+		}
+		@media (max-width: 991px){
+			flex-direction: column;
+		}
 	}
 }
 
@@ -491,12 +508,13 @@ table {
 [class*='boxes-'].owl-carousel {
   margin-left: 0;
   margin-right: 0; 
+  figure, .cell{
+	  width: 100%;
+	  padding-left: 0;
+	  padding-right: 0; 
+  }
 }
-[class*='boxes-'].owl-carousel figure, [class*='boxes-'].owl-carousel .boxes-cell {
-  width: 100%;
-  margin-left: 0;
-  margin-right: 0; 
-}
+
 
 
 .arrow-pic{
@@ -642,6 +660,16 @@ div.btn-style{
 	i{
 		vertical-align: middle;
 	}
+	&.btn-icon{
+		a{
+			display: flex;
+			align-items: center;
+		}
+		i{
+			padding-left: 15px;
+		}
+
+	}
 
 }
 
@@ -681,16 +709,7 @@ div.btn-style{
 		font-size: 0.9em;
 		padding-left: 15px;
 	}
-	&.btn-icon{
-		i{
-			padding-left: 10px;
-		}
-		a{
-			padding-left: 15px;
-			padding-right: 15px;
-			display: inline-block;
-		}
-	}
+
 	&.radius{
 		border-radius: 20px;
 	}
@@ -734,15 +753,16 @@ div.btn-style{
 .btn-opacity{
 	@extend .btn-style;
 	background-color: transparent;
-	border: 1px solid rgba(white, 0.2);
-	color: white;
+	border: 1px solid $color-1;
+	color: $color-1;
 	transition: all 0.3s ease-in-out;
 	font-weight: 600;
+	box-shadow: none;
 	a, button{
 		transition: none !important;
 		&:not([class*="p-v"]){
-			padding-top: calc(1.2em - 1px);
-			padding-bottom: calc(1.2em - 1px);
+			padding-top: calc(1em - 1px);
+			padding-bottom: calc(1em - 1px);
 		}
 	}
 	&.color-1{
@@ -1019,14 +1039,16 @@ h1,h2,h3,h4,h5{
 .h1{
 	@extend h1;
 }
+h1, h2, h3{
+	font-family: $font-family-2;
+	line-height: 120%;
+}
 h1, h2, h3, h4{
 	margin-top: 10px;
 	margin-bottom: 10px;
-	line-height: 120%;
 	position: relative;	
 }
 h1{
-	font-family: $font-family-2;
 	font-size: em(50);
 	margin-bottom: 15px;
 	@media (max-width: 1600px) {
@@ -1039,7 +1061,6 @@ h1{
 h2{
 	font-size: em(40);
 	margin-bottom: 15px;
-	font-weight: 600;
 	@media (max-width: 1600px) {
 		font-size: em(25);
 	}
@@ -1054,13 +1075,13 @@ h3{
 	}
 }
 h4{
-	font-size: em(18);
+	font-size: em(20);
 	font-weight: 700;
 }
 h5{	
 	line-height: 150%;
 	font-weight: 400;
-	font-size: em(14);
+	font-size: em(16);
 }
 
 blockquote{
@@ -1187,22 +1208,18 @@ hr{
 
 html{
 	.form-control{
-		border-radius: 0;
 		background-color: white;
-		border: 0px solid black;
-		border-radius: 0;
-		border-bottom: 1px solid #cbcbcb;
+		border: 1px solid $color-gray-3;
+		border-radius: 5px;
 		color: black;
 		box-shadow: none;
 		&:focus{
 			box-shadow: none;
-			border-color: $color-2;
 		}
 		@include placeholder-color(gray);
 	}
 	input.form-control{
 		height: 40px;
-		padding-left: 0;
 	}
 	textarea.form-control{
 		height: 130px;
