@@ -625,7 +625,7 @@ div.btn-style{
 	font-family: $font-family-1;
 	border-radius: 5px;
 	font-weight: 600;
-	box-shadow: 0 6px 40px rgba($color-1, 0.7);
+	box-shadow: 0 6px 30px rgba($color-1, 0.5);
 	&.text-wrap{
 		white-space: wrap;
 	}
@@ -839,6 +839,7 @@ div.btn-style{
 			}
 			&.active{
 				background-color: $color-1;
+				border-radius: 5px;
 				a{
 					background-color: $color-1;
 					color: white;
@@ -934,7 +935,7 @@ body{
 	text-size-adjust: none;
 	font: $fs-def#{px} $font-family-1;
 	overflow-x: hidden;
-	color: $color-gray-4;
+	color: black;
 	//height: auto;
 	//background-image: url('../img/bg/bg-body.jpg');
 	background-color: white;
@@ -1112,8 +1113,7 @@ main{
 	position: relative;
 	overflow: inherit;
 	//min-height: 300px;
-	z-index: 1;
-	color: #292929;
+	z-index: 11;
 	min-height: 300px;
 	background-position: center bottom;
 	background-repeat: no-repeat;
@@ -1145,12 +1145,12 @@ main{
 			line-height: 100%;
 		}
 	}
-	p{
+	p{		
 		line-height: 170%;
 	}
 
-
 }
+
 .container-fluid-page{
 	@extend .container-fluid;
 	@media (min-width: 992px) {
@@ -1195,6 +1195,7 @@ hr{
 		font-size: em(16);
 	}
 	p:not([class*="color-"]){
+		color: #666666;
 		line-height: 170%;
 		margin-bottom: 20px;
 		@media (min-width: 1600){
@@ -1208,7 +1209,7 @@ hr{
 
 html{
 	.form-control{
-		background-color: white;
+		background-color: #fafafa;
 		border: 1px solid $color-gray-3;
 		border-radius: 5px;
 		color: black;
@@ -1219,7 +1220,7 @@ html{
 		@include placeholder-color(gray);
 	}
 	input.form-control{
-		height: 40px;
+		height: 45px;
 	}
 	textarea.form-control{
 		height: 130px;
@@ -1258,7 +1259,7 @@ html{
 //checkbox
 input[type="checkbox"]:checked{
 	&~.checkbox-style-1, &~label .checkbox-style-1{
-		background-color: $color-3;
+		background-color: $color-1;
 		&:before{
 		border-color: transparent;
 			display: flex;
@@ -1279,14 +1280,14 @@ input[type="checkbox"]:checked{
 	//transition: all 0.05s ease;
 	background-color: transparent;
 	position: relative;
-	border-radius: 0;
+	border-radius: 50%;
 	&:hover{
 		cursor: pointer;
 	}
 	&:before{
 		@extend .claf;
 		@extend .trans-center;
-		border-radius: 0;
+		border-radius: 2px;
 		border: 1px solid $color-gray-3;
 	}
 }
