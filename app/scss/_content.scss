@@ -349,7 +349,7 @@ $heightSlider: calc(100vh + 14px);
 		position: absolute;
 		bottom: 20px;
 		left: calc(50% - 12px);
-		z-index: 1;
+		z-index: 111;
 		font-size: 24px;
 	}
 	.link-video{
@@ -626,7 +626,6 @@ $heightSlider: calc(100vh + 14px);
 		position: absolute;
 		text-align: center;
 		transform: translateX(-100%);
-		box-shadow: 0 0 30px rgba(white, 0.7);
 		top: 0;
 		left: 0;
 		overflow: visible;
@@ -635,6 +634,7 @@ $heightSlider: calc(100vh + 14px);
 		pointer-events: none;
 		padding-right: 12px;
 		ul{
+			box-shadow: 0 0 30px rgba(white, 0.7);
 			min-width: 180px;
 			background-color: white;
 			border-radius: 10px;
@@ -1346,6 +1346,11 @@ $heightSlider: calc(100vh + 14px);
 			@media (max-width: 991px) {
 				padding: 10px 15px;
 			}
+		}
+	}
+	.fancybox-close-small{
+		&:after{
+			color: white;
 		}
 	}
 	@media (max-width: 991px){
