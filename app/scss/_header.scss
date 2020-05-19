@@ -427,8 +427,9 @@ $header-min-menu: 70px;
 	top: 45px;
 	padding-top: 20px;
 	//left: calc( 50vw - 585px);
-  left: calc(100% - 0px);
-  transform: translateX(-100%);
+  //left: calc(50vw - 585px);
+  right: calc(-100% - 50px);
+  //transform: translateX(-50%);
   pointer-events: none;
 	z-index: 0;
 	opacity: 0;
@@ -436,6 +437,9 @@ $header-min-menu: 70px;
 	padding-left: 0;
 	padding-right: 0;
 	transition: all 0.3s ease;
+	@media (max-width: 1380px){
+		width: 1000px;
+	}
 	// transition:	opacity 0.3s ease-in-out,
 	// 					transform 0.3s ease-in-out,
 	// 					pointer-events 0s ease-in-out 0.3s;

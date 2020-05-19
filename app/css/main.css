@@ -8274,11 +8274,8 @@ input[type="radio"]:checked ~ .radio-style-1, input[type="radio"]:checked ~ .rad
   position: absolute;
   top: 45px;
   padding-top: 20px;
-  left: -webkit-calc(100% - 0px);
-  left: calc(100% - 0px);
-  -webkit-transform: translateX(-100%);
-  -ms-transform: translateX(-100%);
-  transform: translateX(-100%);
+  right: -webkit-calc(-100% - 50px);
+  right: calc(-100% - 50px);
   pointer-events: none;
   z-index: 0;
   opacity: 0;
@@ -8288,6 +8285,9 @@ input[type="radio"]:checked ~ .radio-style-1, input[type="radio"]:checked ~ .rad
   -webkit-transition: all 0.3s ease;
   -o-transition: all 0.3s ease;
   transition: all 0.3s ease; }
+  @media (max-width: 1380px) {
+    .subtabs {
+      width: 1000px; } }
   .subtabs.hover, .subtabs.pan-right:not(.scrolled) {
     opacity: 1; }
   .subtabs .tabs-content {
