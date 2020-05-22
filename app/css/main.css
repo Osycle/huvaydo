@@ -7949,8 +7949,7 @@ input[type="radio"]:checked ~ .radio-style-1, input[type="radio"]:checked ~ .rad
       top: 0;
       z-index: -11; }
     .header.header-pages .subtabs {
-      left: -webkit-calc(100% - -203px);
-      left: calc(100% - -203px); }
+      right: -200%; }
 
 .header-hidden {
   position: relative;
